@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>vienaslitas.lt — Valiutų keitykla Šiauliuose</title>
-<meta name="description" content="vienaslitas.lt — valiutų keitykla Šiauliuose. Geriausi valiutų kursai, greitas aptarnavimas, individualios sąlygos didesnėms sumoms.">
+<title>vienaslitas.lt — Valiutos keitykla Šiauliuose</title>
+<meta name="description" content="vienaslitas.lt — valiutos keitykla Šiauliuose. Geriausi valiutų kursai, greitas aptarnavimas, individualios sąlygos didesnėms sumoms.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -13,14 +13,14 @@
     --ink:#15120d;
     --paper:#f3ecdd;
     --paper-deep:#ece3cf;
-    --green-900:#122821;
-    --green-800:#163029;
-    --green-700:#1f4339;
+    --blue-900:#0b1d35;
+    --blue-800:#0f2444;
+    --blue-700:#1a3560;
     --brass:#c9a227;
     --brass-light:#e1c25f;
-    --rust:#b5483d;
+    --rust:#c97520;
     --line-on-paper: rgba(21,18,13,0.14);
-    --line-on-green: rgba(243,236,221,0.16);
+    --line-on-blue: rgba(243,236,221,0.16);
     --shadow-tile: 0 1px 0 rgba(0,0,0,0.5) inset, 0 -1px 0 rgba(255,255,255,0.04) inset;
     --radius-s: 6px;
     --radius-m: 14px;
@@ -77,7 +77,7 @@
     opacity:0.6;
   }
   .on-paper .eyebrow{color:var(--rust);}
-  .on-green .eyebrow{color:var(--brass-light);}
+  .on-blue .eyebrow{color:var(--brass-light);}
 
   /* ---------- HEADER ---------- */
   .site-header{
@@ -150,14 +150,14 @@
     font-weight:600;
     font-size:13.5px;
     text-decoration:none;
-    background:var(--green-800);
+    background:var(--blue-800);
     color:var(--paper);
     padding:10px 16px;
     border-radius:999px;
     white-space:nowrap;
   }
   .tel-link svg{width:14px;height:14px;flex:none;}
-  .tel-link:hover{background:var(--green-700);}
+  .tel-link:hover{background:var(--blue-700);}
 
   .menu-toggle{
     display:none;
@@ -180,9 +180,9 @@
   .hero{
     background:
       radial-gradient(900px 480px at 85% -10%, rgba(201,162,39,0.16), transparent 60%),
-      linear-gradient(180deg, var(--green-900), var(--green-800));
+      linear-gradient(180deg, var(--blue-900), var(--blue-800));
     color:var(--paper);
-    padding:84px 0 76px;
+    padding:44px 0 40px;
     position:relative;
     overflow:hidden;
   }
@@ -193,8 +193,8 @@
     align-items:center;
   }
   .hero h1{
-    font-size:clamp(32px, 4.4vw, 50px);
-    line-height:1.08;
+    font-size:clamp(20px, 2.6vw, 30px);
+    line-height:1.2;
     color:var(--paper);
   }
   .hero h1 em{
@@ -230,7 +230,7 @@
   }
   .btn-primary{
     background:var(--brass);
-    color:var(--green-900);
+    color:var(--blue-900);
   }
   .btn-primary:hover{background:var(--brass-light);}
   .btn-ghost{
@@ -247,7 +247,7 @@
     gap:16px;
   }
   .flip-card{
-    background:linear-gradient(180deg, #0e1f1a, #0a1814);
+    background:linear-gradient(180deg, #0d2040, #081528);
     border-radius:var(--radius-m);
     padding:18px 20px;
     box-shadow:0 18px 40px -18px rgba(0,0,0,0.6), 0 0 0 1px rgba(201,162,39,0.18);
@@ -291,7 +291,7 @@
     font-weight:600;
     font-size:19px;
     color:var(--paper);
-    background:linear-gradient(180deg, #1c352c, #142a23);
+    background:linear-gradient(180deg, #173058, #0e2248);
     box-shadow:var(--shadow-tile);
     border-radius:5px;
     padding:8px 11px;
@@ -329,7 +329,7 @@
     line-height:1.6;
     color:#534b3c;
   }
-  .on-green .section-head p{color:rgba(243,236,221,0.72);}
+  .on-blue .section-head p{color:rgba(243,236,221,0.72);}
 
   /* ---------- RATES TABLE ---------- */
   .rates{background:var(--paper);}
@@ -372,7 +372,7 @@
     font-family:'JetBrains Mono', monospace;
     font-weight:700;
     font-size:13px;
-    color:var(--green-900);
+    color:var(--blue-900);
   }
   .code-badge .dot{
     width:8px;height:8px;border-radius:50%;
@@ -386,7 +386,7 @@
     font-family:'JetBrains Mono', monospace;
     font-weight:600;
     font-size:14px;
-    background:linear-gradient(180deg, #1c352c, #142a23);
+    background:linear-gradient(180deg, #173058, #0e2248);
     color:var(--paper);
     padding:7px 13px;
     border-radius:5px;
@@ -461,7 +461,7 @@
 
   /* ---------- CONTACTS ---------- */
   .contact{
-    background:linear-gradient(180deg, var(--green-800), var(--green-900));
+    background:linear-gradient(180deg, var(--blue-800), var(--blue-900));
     color:var(--paper);
   }
   .contact-grid{
@@ -472,7 +472,7 @@
   }
   .contact-card{
     background:rgba(243,236,221,0.05);
-    border:1px solid var(--line-on-green);
+    border:1px solid var(--line-on-blue);
     border-radius:var(--radius-m);
     padding:32px;
   }
@@ -480,7 +480,7 @@
     display:flex;
     gap:16px;
     padding:18px 0;
-    border-bottom:1px solid var(--line-on-green);
+    border-bottom:1px solid var(--line-on-blue);
   }
   .contact-row:first-child{padding-top:0;}
   .contact-row:last-child{border-bottom:none;padding-bottom:0;}
@@ -508,9 +508,9 @@
   .map-frame{
     border-radius:var(--radius-m);
     overflow:hidden;
-    border:1px solid var(--line-on-green);
+    border:1px solid var(--line-on-blue);
     box-shadow:0 24px 48px -24px rgba(0,0,0,0.55);
-    background:#0e1f1a;
+    background:#0b1d35;
   }
   .map-frame iframe{
     width:100%;
@@ -536,10 +536,10 @@
 
   /* ---------- FOOTER ---------- */
   .site-footer{
-    background:var(--green-900);
+    background:var(--blue-900);
     color:rgba(243,236,221,0.55);
     padding:26px 0;
-    border-top:1px solid var(--line-on-green);
+    border-top:1px solid var(--line-on-blue);
   }
   .footer-wrap{
     display:flex;
@@ -611,40 +611,17 @@
   </div>
 </header>
 
-<section class="hero on-green" id="hero">
+<section class="hero on-blue" id="hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="eyebrow">Valiutų keitykla · Šiauliai</p>
-      <h1>Kadaisi vienas litas turėjo vieną fiksuotą kursą.<br><em>Šiandien kursų — dešimtys.</em></h1>
-      <p class="lead">Nuo lito prie euro kursas nesikeitė nė karto per visą jo istoriją. Pasaulio valiutos taip nesielgia — todėl mes sekame jas kasdien ir siūlome sąžiningą kursą be paslėptų mokesčių.</p>
+      <p class="eyebrow">Valiutos keitykla · Šiauliai</p>
+      <h1>Kasdien jums siūlome sąžiningą kursą be paslėptų mokesčių</h1>
       <div class="hero-actions">
         <a href="#kursai" class="btn btn-primary">Žiūrėti kursus</a>
         <a href="tel:+37068628792" class="btn btn-ghost">Skambinti +370 686 28792</a>
       </div>
     </div>
-    <div class="flip-stack" aria-hidden="true">
-      <div class="flip-card">
-        <div class="flip-code">USD<small>JAV doleris</small></div>
-        <div class="flip-tiles">
-          <div class="flip-tile"><div class="num">1.161</div><div class="lbl">Perkame</div></div>
-          <div class="flip-tile"><div class="num">1.133</div><div class="lbl">Parduod.</div></div>
-        </div>
-      </div>
-      <div class="flip-card">
-        <div class="flip-code">GBP<small>D. Britanijos svaras</small></div>
-        <div class="flip-tiles">
-          <div class="flip-tile"><div class="num">0.886</div><div class="lbl">Perkame</div></div>
-          <div class="flip-tile"><div class="num">0.862</div><div class="lbl">Parduod.</div></div>
-        </div>
-      </div>
-      <div class="flip-card">
-        <div class="flip-code">PLN<small>Lenkijos zlotas</small></div>
-        <div class="flip-tiles">
-          <div class="flip-tile"><div class="num">4.280</div><div class="lbl">Perkame</div></div>
-          <div class="flip-tile"><div class="num">4.180</div><div class="lbl">Parduod.</div></div>
-        </div>
-      </div>
-    </div>
+    <div class="flip-stack" id="flip-stack" aria-hidden="true"></div>
   </div>
 </section>
 
@@ -665,30 +642,13 @@
             <th class="num">Parduodame</th>
           </tr>
         </thead>
-        <tbody>
-          <tr><td><span class="code-badge"><span class="dot"></span>USD</span><div class="currency-name">JAV doleris</div></td><td class="num"><span class="tile">1.161</span></td><td class="num"><span class="tile sell">1.133</span></td></tr>
-          <tr><td><span class="code-badge"><span class="dot"></span>GBP</span><div class="currency-name">D. Britanijos svaras</div></td><td class="num"><span class="tile">0.886</span></td><td class="num"><span class="tile sell">0.862</span></td></tr>
-          <tr><td><span class="code-badge"><span class="dot"></span>CHF</span><div class="currency-name">Šveicarijos frankas</div></td><td class="num"><span class="tile">0.944</span></td><td class="num"><span class="tile sell">0.911</span></td></tr>
-          <tr><td><span class="code-badge"><span class="dot"></span>PLN</span><div class="currency-name">Lenkijos zlotas</div></td><td class="num"><span class="tile">4.280</span></td><td class="num"><span class="tile sell">4.180</span></td></tr>
-          <tr><td><span class="code-badge"><span class="dot"></span>NOK</span><div class="currency-name">Norvegijos krona</div></td><td class="num"><span class="tile">13.20</span></td><td class="num"><span class="tile sell">12.30</span></td></tr>
-          <tr><td><span class="code-badge"><span class="dot"></span>SEK</span><div class="currency-name">Švedijos krona</div></td><td class="num"><span class="tile">12.20</span></td><td class="num"><span class="tile sell">11.60</span></td></tr>
-          <tr><td><span class="code-badge"><span class="dot"></span>DKK</span><div class="currency-name">Danijos krona</div></td><td class="num"><span class="tile">8.100</span></td><td class="num"><span class="tile sell">7.600</span></td></tr>
-          <tr><td><span class="code-badge"><span class="dot"></span>CZK</span><div class="currency-name">Čekijos krona</div></td><td class="num"><span class="tile">24.90</span></td><td class="num"><span class="tile sell">23.30</span></td></tr>
-          <tr><td><span class="code-badge"><span class="dot"></span>HUF</span><div class="currency-name">Vengrijos forintas</div></td><td class="num"><span class="tile">367.0</span></td><td class="num"><span class="tile sell">334.0</span></td></tr>
-          <tr><td><span class="code-badge"><span class="dot"></span>RON</span><div class="currency-name">Rumunijos lėja</div></td><td class="num"><span class="tile">5.500</span></td><td class="num"><span class="tile sell">4.920</span></td></tr>
-          <tr><td><span class="code-badge"><span class="dot"></span>JPY</span><div class="currency-name">Japonijos jena</div></td><td class="num"><span class="tile">189.0</span></td><td class="num"><span class="tile sell">173.0</span></td></tr>
-          <tr><td><span class="code-badge"><span class="dot"></span>CAD</span><div class="currency-name">Kanados doleris</div></td><td class="num"><span class="tile">1.675</span></td><td class="num"><span class="tile sell">1.592</span></td></tr>
-          <tr><td><span class="code-badge"><span class="dot"></span>AUD</span><div class="currency-name">Australijos doleris</div></td><td class="num"><span class="tile">1.701</span></td><td class="num"><span class="tile sell">1.605</span></td></tr>
-          <tr><td><span class="code-badge"><span class="dot"></span>TRY</span><div class="currency-name">Turkijos lira</div></td><td class="num"><span class="tile">53.50</span></td><td class="num"><span class="tile sell">48.50</span></td></tr>
-          <tr><td><span class="code-badge"><span class="dot"></span>UAH</span><div class="currency-name">Ukrainos grivina</div></td><td class="num"><span class="tile">54.00</span></td><td class="num"><span class="tile sell">51.00</span></td></tr>
-          <tr><td><span class="code-badge"><span class="dot"></span>GEL</span><div class="currency-name">Gruzijos laris</div></td><td class="num"><span class="tile">3.070</span></td><td class="num"><span class="tile sell">2.830</span></td></tr>
-        </tbody>
+        <tbody id="rates-body"></tbody>
       </table>
     </div>
 
     <div class="rates-foot">
       <p class="rates-note">Keičiant didesnę valiutos sumą taikome individualų, palankesnį kursą. Dėl tikslios sumos kursui paskaičiuoti skambinkite telefonu +370 686 28792.</p>
-      <span class="updated-tag">Atnaujinta: 2026-06-21</span>
+      <span class="updated-tag"></span>
     </div>
   </div>
 </section>
@@ -726,7 +686,7 @@
   </div>
 </section>
 
-<section class="contact on-green" id="kontaktai">
+<section class="contact on-blue" id="kontaktai">
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">Apsilankykite</p>
@@ -777,11 +737,12 @@
 
 <footer class="site-footer">
   <div class="wrap footer-wrap">
-    <span>© 2026 vienaslitas.lt — Valiutų keitykla, Vytauto g. 70, Šiauliai</span>
+    <span>© 2026 vienaslitas.lt — Valiutos keitykla, Vytauto g. 70, Šiauliai</span>
     <span>+370 686 28792</span>
   </div>
 </footer>
 
+<script src="currencies.js"></script>
 <script>
   const toggle = document.getElementById('menuToggle');
   const nav = document.getElementById('mainNav');
@@ -795,6 +756,35 @@
       toggle.setAttribute('aria-expanded', 'false');
     });
   });
+
+  // Render rates table from currencies.js
+  const tbody = document.getElementById('rates-body');
+  CURRENCIES.forEach(c => {
+    const tr = document.createElement('tr');
+    tr.innerHTML =
+      `<td><span class="code-badge"><span class="dot"></span>${c.code}</span><div class="currency-name">${c.name}</div></td>` +
+      `<td class="num"><span class="tile">${c.buy}</span></td>` +
+      `<td class="num"><span class="tile sell">${c.sell}</span></td>`;
+    tbody.appendChild(tr);
+  });
+
+  // Render hero flip cards (first 3 currencies) from currencies.js
+  const flipStack = document.getElementById('flip-stack');
+  CURRENCIES.slice(0, 3).forEach((c, i) => {
+    const div = document.createElement('div');
+    div.className = 'flip-card';
+    div.style.animationDelay = `${i * 0.12}s`;
+    div.innerHTML =
+      `<div class="flip-code">${c.code}<small>${c.name}</small></div>` +
+      `<div class="flip-tiles">` +
+        `<div class="flip-tile"><div class="num">${c.buy}</div><div class="lbl">Perkame</div></div>` +
+        `<div class="flip-tile"><div class="num">${c.sell}</div><div class="lbl">Parduodame</div></div>` +
+      `</div>`;
+    flipStack.appendChild(div);
+  });
+
+  // Populate the updated date tag from currencies.js
+  document.querySelector('.updated-tag').textContent = 'Atnaujinta: ' + UPDATED;
 </script>
 
 </body>

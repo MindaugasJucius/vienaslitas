@@ -1,0 +1,37 @@
+// ================================================================
+//  VALIUTŲ KURSŲ FAILAS — vienaslitas.lt
+// ================================================================
+//  Kaip atnaujinti kursus:
+//    1. Atidarykite šį failą bet kokia teksto programa
+//       (pvz. Notepad, TextEdit).
+//    2. Raskite norimą valiutą ir pakeiskite skaičius.
+//         buy  – kursas, kuriuo PERKAME iš kliento
+//         sell – kursas, kuriuo PARDUODAME klientui
+//    3. Atnaujinkite datą lauke UPDATED (žr. apačioje).
+//    4. Išsaugokite failą (Ctrl+S arba Cmd+S).
+//    5. Atnaujinkite tinklalapį naršyklėje (F5).
+//
+//  SVARBU: nekeiskite kablelių, skliaustų ar kabučių struktūros!
+// ================================================================
+
+const CURRENCIES = [
+  { code: "USD", name: "JAV doleris",           buy: "1.161", sell: "1.133" },
+  { code: "GBP", name: "D. Britanijos svaras",  buy: "0.886", sell: "0.862" },
+  { code: "CHF", name: "Šveicarijos frankas",   buy: "0.944", sell: "0.911" },
+  { code: "PLN", name: "Lenkijos zlotas",       buy: "4.280", sell: "4.180" },
+  { code: "NOK", name: "Norvegijos krona",      buy: "13.20", sell: "12.30" },
+  { code: "SEK", name: "Švedijos krona",        buy: "12.20", sell: "11.60" },
+  { code: "DKK", name: "Danijos krona",         buy: "8.100", sell: "7.600" },
+  { code: "CZK", name: "Čekijos krona",         buy: "24.90", sell: "23.30" },
+  { code: "HUF", name: "Vengrijos forintas",    buy: "367.0", sell: "334.0" },
+  { code: "RON", name: "Rumunijos lėja",        buy: "5.500", sell: "4.920" },
+  { code: "JPY", name: "Japonijos jena",        buy: "189.0", sell: "173.0" },
+  { code: "CAD", name: "Kanados doleris",       buy: "1.675", sell: "1.592" },
+  { code: "AUD", name: "Australijos doleris",   buy: "1.701", sell: "1.605" },
+  { code: "TRY", name: "Turkijos lira",         buy: "53.50", sell: "48.50" },
+  { code: "UAH", name: "Ukrainos grivina",      buy: "54.00", sell: "51.00" },
+  { code: "GEL", name: "Gruzijos laris",        buy: "3.070", sell: "2.830" },
+];
+
+// Paskutinio atnaujinimo data (formatas: MMMM-MM-DD, pvz. "2026-06-21")
+const UPDATED = "2026-06-21";
