@@ -642,7 +642,9 @@
             <th class="num">Parduodame</th>
           </tr>
         </thead>
-        <tbody id="rates-body"></tbody>
+        <tbody id="rates-body">
+          <tr id="loading-row"><td colspan="3" style="text-align:center;padding:22px;color:#6b6354;font-family:'JetBrains Mono',monospace;font-size:13px;">Kraunama…</td></tr>
+        </tbody>
       </table>
     </div>
 
@@ -742,7 +744,6 @@
   </div>
 </footer>
 
-<script src="currencies.js"></script>
 <script>
   const toggle = document.getElementById('menuToggle');
   const nav = document.getElementById('mainNav');
@@ -757,34 +758,36 @@
     });
   });
 
-  // Render rates table from currencies.js
-  const tbody = document.getElementById('rates-body');
-  CURRENCIES.forEach(c => {
-    const tr = document.createElement('tr');
-    tr.innerHTML =
-      `<td><span class="code-badge"><span class="dot"></span>${c.code}</span><div class="currency-name">${c.name}</div></td>` +
-      `<td class="num"><span class="tile">${c.buy}</span></td>` +
-      `<td class="num"><span class="tile sell">${c.sell}</span></td>`;
-    tbody.appendChild(tr);
-  });
+  fetch('/currencies.json')
+    .then(r => r.json())
+    .then(data => {
+      const tbody = document.getElementById('rates-body');
+      document.getElementById('loading-row')?.remove();
+      data.currencies.forEach(c => {
+        const tr = document.createElement('tr');
+        tr.innerHTML =
+          `<td><span class="code-badge"><span class="dot"></span>${c.code}</span><div class="currency-name">${c.name}</div></td>` +
+          `<td class="num"><span class="tile">${c.buy}</span></td>` +
+          `<td class="num"><span class="tile sell">${c.sell}</span></td>`;
+        tbody.appendChild(tr);
+      });
 
-  // Render hero flip cards (first 3 currencies) from currencies.js
-  const flipStack = document.getElementById('flip-stack');
-  CURRENCIES.slice(0, 3).forEach((c, i) => {
-    const div = document.createElement('div');
-    div.className = 'flip-card';
-    div.style.animationDelay = `${i * 0.12}s`;
-    div.innerHTML =
-      `<div class="flip-code">${c.code}<small>${c.name}</small></div>` +
-      `<div class="flip-tiles">` +
-        `<div class="flip-tile"><div class="num">${c.buy}</div><div class="lbl">Perkame</div></div>` +
-        `<div class="flip-tile"><div class="num">${c.sell}</div><div class="lbl">Parduodame</div></div>` +
-      `</div>`;
-    flipStack.appendChild(div);
-  });
+      const flipStack = document.getElementById('flip-stack');
+      data.currencies.slice(0, 3).forEach((c, i) => {
+        const div = document.createElement('div');
+        div.className = 'flip-card';
+        div.style.animationDelay = `${i * 0.12}s`;
+        div.innerHTML =
+          `<div class="flip-code">${c.code}<small>${c.name}</small></div>` +
+          `<div class="flip-tiles">` +
+            `<div class="flip-tile"><div class="num">${c.buy}</div><div class="lbl">Perkame</div></div>` +
+            `<div class="flip-tile"><div class="num">${c.sell}</div><div class="lbl">Parduodame</div></div>` +
+          `</div>`;
+        flipStack.appendChild(div);
+      });
 
-  // Populate the updated date tag from currencies.js
-  document.querySelector('.updated-tag').textContent = 'Atnaujinta: ' + UPDATED;
+      document.querySelector('.updated-tag').textContent = 'Atnaujinta: ' + data.updated;
+    });
 </script>
 
 </body>
