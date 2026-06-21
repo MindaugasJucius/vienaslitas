@@ -825,6 +825,30 @@
         flipStack.appendChild(div);
       });
 
+      // Auto-scroll flip cards on mobile (no-op on desktop where stack is vertical)
+      const flipCards = flipStack.querySelectorAll('.flip-card');
+      if (flipCards.length > 1) {
+        let idx = 0;
+        let paused = false;
+        let resumeTimer;
+        const pause = () => {
+          paused = true;
+          clearTimeout(resumeTimer);
+          resumeTimer = setTimeout(() => { paused = false; }, 2500);
+        };
+        flipStack.addEventListener('pointerdown', pause, { passive: true });
+        flipStack.addEventListener('scroll', pause, { passive: true });
+        setInterval(() => {
+          if (paused) return;
+          idx = (idx + 1) % flipCards.length;
+          const card = flipCards[idx];
+          flipStack.scrollTo({
+            left: card.offsetLeft - (flipStack.offsetWidth - card.offsetWidth) / 2,
+            behavior: 'smooth'
+          });
+        }, 3000);
+      }
+
       document.querySelector('.updated-tag').textContent = 'Atnaujinta: ' + data.updated;
     });
 </script>
