@@ -36,11 +36,7 @@
     align-items:center;
     justify-content:space-between;
   }
-  .brand{
-    font-family:'Fraunces',serif;
-    font-size:18px;
-    font-weight:600;
-  }
+  .brand{font-family:'Fraunces',serif;font-size:18px;font-weight:600;}
   .brand span{color:var(--brass);}
   .topbar-tag{
     font-family:'JetBrains Mono',monospace;
@@ -49,188 +45,108 @@
     text-transform:uppercase;
     color:rgba(243,236,221,0.5);
   }
-  .container{
-    max-width:820px;
-    margin:0 auto;
-    padding:40px 24px 80px;
-  }
-  h1{
-    font-family:'Fraunces',serif;
-    font-size:26px;
-    font-weight:600;
-    margin-bottom:6px;
-    letter-spacing:-0.01em;
-  }
-  .subtitle{
-    font-size:14px;
-    color:#6b6354;
-    margin-bottom:32px;
-  }
+  .container{max-width:860px;margin:0 auto;padding:40px 24px 80px;}
+  h1{font-family:'Fraunces',serif;font-size:26px;font-weight:600;margin-bottom:6px;letter-spacing:-0.01em;}
+  .subtitle{font-size:14px;color:#6b6354;margin-bottom:32px;}
 
-  /* Token section */
-  .token-card{
-    background:var(--paper-deep);
-    border:1px solid var(--line);
-    border-radius:var(--radius);
-    padding:24px;
-    margin-bottom:32px;
-  }
-  .token-card label{
-    display:block;
-    font-family:'JetBrains Mono',monospace;
-    font-size:11px;
-    letter-spacing:0.1em;
-    text-transform:uppercase;
-    color:#6b6354;
-    margin-bottom:8px;
-  }
-  .token-row{
-    display:flex;
-    gap:10px;
-  }
-  .token-row input{
-    flex:1;
-    font-family:'JetBrains Mono',monospace;
-    font-size:13px;
-    padding:10px 14px;
-    border:1px solid var(--line);
-    border-radius:8px;
-    background:#fff;
-    color:var(--ink);
-    outline:none;
-  }
+  /* Token */
+  .token-card{background:var(--paper-deep);border:1px solid var(--line);border-radius:var(--radius);padding:24px;margin-bottom:28px;}
+  .token-card label{display:block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#6b6354;margin-bottom:8px;}
+  .token-row{display:flex;gap:10px;}
+  .token-row input{flex:1;font-family:'JetBrains Mono',monospace;font-size:13px;padding:10px 14px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);outline:none;}
   .token-row input:focus{border-color:var(--blue-800);}
-  .token-saved{
-    display:flex;
-    align-items:center;
-    gap:12px;
-    font-size:13.5px;
-  }
-  .token-saved .ok{
-    color:#1a6b3a;
-    font-weight:600;
-    font-family:'JetBrains Mono',monospace;
-    font-size:12px;
-    letter-spacing:0.05em;
-  }
-  .link-btn{
-    background:none;
-    border:none;
-    color:#6b6354;
-    font-size:12.5px;
-    cursor:pointer;
-    text-decoration:underline;
-    padding:0;
-    font-family:inherit;
-  }
+  .token-saved{display:flex;align-items:center;gap:12px;font-size:13.5px;}
+  .token-saved .ok{color:#1a6b3a;font-weight:600;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:0.05em;}
+  .link-btn{background:none;border:none;color:#6b6354;font-size:12.5px;cursor:pointer;text-decoration:underline;padding:0;font-family:inherit;}
   .link-btn:hover{color:var(--rust);}
 
-  /* Rates table */
-  .table-wrap{
-    border:1px solid var(--line);
-    border-radius:var(--radius);
-    overflow:hidden;
-    margin-bottom:24px;
-  }
-  table{
-    width:100%;
-    border-collapse:collapse;
-    background:#fff;
-  }
+  /* Status */
+  .status{font-size:13.5px;padding:12px 16px;border-radius:8px;display:none;margin-bottom:20px;}
+  .status.info{display:block;background:#eaf0fb;color:#0f2444;border:1px solid #c0d0ea;}
+  .status.success{display:block;background:#eafaf1;color:#1a5c38;border:1px solid #a8dfc0;}
+  .status.error{display:block;background:#fdf0ee;color:#8b2316;border:1px solid #f0c0b8;}
+
+  /* Table */
+  .table-wrap{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-bottom:16px;}
+  table{width:100%;border-collapse:collapse;background:#fff;}
   thead th{
-    text-align:left;
-    font-family:'JetBrains Mono',monospace;
-    font-size:10.5px;
-    letter-spacing:0.1em;
-    text-transform:uppercase;
-    font-weight:600;
-    color:#6b6354;
-    padding:12px 16px;
-    border-bottom:1px solid var(--line);
-    background:var(--paper-deep);
+    text-align:left;font-family:'JetBrains Mono',monospace;font-size:10.5px;
+    letter-spacing:0.1em;text-transform:uppercase;font-weight:600;color:#6b6354;
+    padding:12px 14px;border-bottom:1px solid var(--line);background:var(--paper-deep);
   }
   thead th.c{text-align:center;}
   tbody tr{border-bottom:1px solid var(--line);}
   tbody tr:last-child{border-bottom:none;}
   tbody tr:hover{background:#faf7f0;}
-  td{padding:10px 16px;vertical-align:middle;}
-  .code{
-    font-family:'JetBrains Mono',monospace;
-    font-weight:700;
-    font-size:13px;
-    color:var(--blue-900);
-  }
-  .cname{font-size:12.5px;color:#6b6354;margin-top:2px;}
+  td{padding:9px 14px;vertical-align:middle;}
+
+  .flag-cell{font-size:20px;line-height:1;width:38px;text-align:center;padding-right:4px;}
+  .code-cell .code{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px;color:var(--blue-900);}
+  .code-cell .cname{font-size:12px;color:#6b6354;margin-top:2px;}
   td.c{text-align:center;}
+
   .rate-input{
-    font-family:'JetBrains Mono',monospace;
-    font-size:14px;
-    font-weight:600;
-    width:90px;
-    padding:7px 10px;
-    border:1px solid var(--line);
-    border-radius:6px;
-    text-align:center;
-    background:var(--paper-deep);
-    color:var(--ink);
-    outline:none;
-    transition:border-color 0.15s;
+    font-family:'JetBrains Mono',monospace;font-size:14px;font-weight:600;
+    width:88px;padding:7px 10px;border:1px solid var(--line);border-radius:6px;
+    text-align:center;background:var(--paper-deep);color:var(--ink);outline:none;transition:border-color 0.15s;
   }
   .rate-input:focus{border-color:var(--blue-800);background:#fff;}
   .rate-input.sell{background:#fff5f5;}
   .rate-input.sell:focus{border-color:var(--rust);}
 
-  /* Publish button */
+  /* New row inputs */
+  .new-row td{background:#f7fdf9;}
+  .new-row:hover{background:#f0faf4 !important;}
+  .code-input{
+    font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;
+    width:62px;padding:6px 8px;border:1px solid var(--line);border-radius:6px;
+    background:#fff;color:var(--blue-900);outline:none;text-transform:uppercase;
+  }
+  .code-input:focus{border-color:var(--blue-800);}
+  .name-input{
+    font-size:12px;width:100%;padding:5px 8px;border:1px solid var(--line);
+    border-radius:6px;background:#fff;color:var(--ink);outline:none;margin-top:4px;
+  }
+  .name-input:focus{border-color:var(--blue-800);}
+  .flag-preview{font-size:20px;line-height:1;min-width:24px;text-align:center;}
+
+  /* Delete button */
+  .del-btn{
+    background:none;border:none;cursor:pointer;color:#c0b8a8;font-size:16px;
+    width:28px;height:28px;border-radius:6px;display:flex;align-items:center;justify-content:center;
+    transition:background 0.15s,color 0.15s;flex:none;
+  }
+  .del-btn:hover{background:#fdecea;color:#b5483d;}
+  td.del-col{width:40px;text-align:center;padding:0 8px;}
+
+  /* Add row button */
+  .add-row-btn{
+    display:flex;align-items:center;gap:8px;
+    font-family:'JetBrains Mono',monospace;font-size:12.5px;font-weight:600;
+    padding:10px 18px;border:1.5px dashed var(--line);border-radius:8px;
+    background:transparent;color:#6b6354;cursor:pointer;width:100%;
+    transition:border-color 0.15s,color 0.15s,background 0.15s;
+    margin-bottom:24px;
+  }
+  .add-row-btn:hover{border-color:var(--blue-800);color:var(--blue-800);background:#f0f4fa;}
+
+  /* Actions */
   .actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap;}
   .btn-publish{
-    font-family:'JetBrains Mono',monospace;
-    font-weight:600;
-    font-size:14px;
-    letter-spacing:0.03em;
-    padding:14px 28px;
-    background:var(--blue-900);
-    color:var(--paper);
-    border:none;
-    border-radius:999px;
-    cursor:pointer;
-    display:inline-flex;
-    align-items:center;
-    gap:9px;
-    transition:background 0.2s;
+    font-family:'JetBrains Mono',monospace;font-weight:600;font-size:14px;
+    letter-spacing:0.03em;padding:14px 28px;background:var(--blue-900);color:var(--paper);
+    border:none;border-radius:999px;cursor:pointer;display:inline-flex;align-items:center;
+    gap:9px;transition:background 0.2s;
   }
   .btn-publish:hover{background:var(--blue-800);}
   .btn-publish:disabled{opacity:0.5;cursor:not-allowed;}
   .btn-save-token{
-    font-family:'JetBrains Mono',monospace;
-    font-weight:600;
-    font-size:13px;
-    padding:10px 18px;
-    background:var(--blue-900);
-    color:var(--paper);
-    border:none;
-    border-radius:999px;
-    cursor:pointer;
-    white-space:nowrap;
+    font-family:'JetBrains Mono',monospace;font-weight:600;font-size:13px;
+    padding:10px 18px;background:var(--blue-900);color:var(--paper);
+    border:none;border-radius:999px;cursor:pointer;white-space:nowrap;
   }
   .btn-save-token:hover{background:var(--blue-800);}
-
-  /* Status */
-  .status{
-    font-size:13.5px;
-    padding:12px 16px;
-    border-radius:8px;
-    display:none;
-  }
-  .status.info{display:block;background:#eaf0fb;color:#0f2444;border:1px solid #c0d0ea;}
-  .status.success{display:block;background:#eafaf1;color:#1a5c38;border:1px solid #a8dfc0;}
-  .status.error{display:block;background:#fdf0ee;color:#8b2316;border:1px solid #f0c0b8;}
-
-  .hint{
-    font-size:12.5px;
-    color:#6b6354;
-    line-height:1.6;
-    margin-top:12px;
-  }
+  .hint{font-size:12.5px;color:#6b6354;line-height:1.6;margin-top:12px;}
 </style>
 </head>
 <body>
@@ -244,7 +160,6 @@
   <h1>Valiutų kursai</h1>
   <p class="subtitle">Pakeiskite skaičius ir paspauskite „Skelbti". Svetainė atsinaujins per ~1 minutę.</p>
 
-  <!-- Token section -->
   <div class="token-card" id="tokenSection">
     <label>Prieigos raktažodis (GitHub token)</label>
     <div id="tokenInput" class="token-row">
@@ -257,24 +172,28 @@
     </div>
   </div>
 
-  <!-- Status -->
   <div class="status" id="status"></div>
 
-  <!-- Rates table -->
   <div class="table-wrap" id="tableWrap" style="display:none;">
     <table>
       <thead>
         <tr>
+          <th style="width:38px;padding-right:4px;"></th>
           <th>Valiuta</th>
           <th class="c">Perkame</th>
           <th class="c">Parduodame</th>
+          <th style="width:40px;"></th>
         </tr>
       </thead>
       <tbody id="rateRows"></tbody>
     </table>
   </div>
 
-  <!-- Publish -->
+  <button class="add-row-btn" id="addRowBtn" style="display:none;" onclick="addRow()">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+    Pridėti valiutą
+  </button>
+
   <div class="actions" id="publishArea" style="display:none;">
     <button class="btn-publish" id="publishBtn" onclick="publish()">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2L15 22 11 13 2 9l20-7z"/></svg>
@@ -291,6 +210,30 @@
 
   let fileSha = null;
 
+  const CURRENCY_TO_COUNTRY = {
+    AED:'AE',AFN:'AF',ALL:'AL',AMD:'AM',AOA:'AO',ARS:'AR',AUD:'AU',AZN:'AZ',
+    BAM:'BA',BBD:'BB',BDT:'BD',BGN:'BG',BHD:'BH',BIF:'BI',BND:'BN',BOB:'BO',
+    BRL:'BR',BTN:'BT',BWP:'BW',BYN:'BY',BZD:'BZ',CAD:'CA',CDF:'CD',CHF:'CH',
+    CLP:'CL',CNY:'CN',COP:'CO',CRC:'CR',CUP:'CU',CZK:'CZ',DKK:'DK',DOP:'DO',
+    DZD:'DZ',EGP:'EG',EUR:'EU',FJD:'FJ',GBP:'GB',GEL:'GE',GHS:'GH',GMD:'GM',
+    GTQ:'GT',GYD:'GY',HKD:'HK',HNL:'HN',HUF:'HU',IDR:'ID',ILS:'IL',INR:'IN',
+    IQD:'IQ',IRR:'IR',ISK:'IS',JMD:'JM',JOD:'JO',JPY:'JP',KES:'KE',KGS:'KG',
+    KHR:'KH',KRW:'KR',KWD:'KW',KZT:'KZ',LAK:'LA',LBP:'LB',LKR:'LK',LYD:'LY',
+    MAD:'MA',MDL:'MD',MGA:'MG',MKD:'MK',MMK:'MM',MNT:'MN',MOP:'MO',MUR:'MU',
+    MVR:'MV',MWK:'MW',MXN:'MX',MYR:'MY',MZN:'MZ',NAD:'NA',NGN:'NG',NIO:'NI',
+    NOK:'NO',NPR:'NP',NZD:'NZ',OMR:'OM',PAB:'PA',PEN:'PE',PHP:'PH',PKR:'PK',
+    PLN:'PL',PYG:'PY',QAR:'QA',RON:'RO',RSD:'RS',RUB:'RU',RWF:'RW',SAR:'SA',
+    SEK:'SE',SGD:'SG',SOS:'SO',SRD:'SR',THB:'TH',TJS:'TJ',TMT:'TM',TND:'TN',
+    TRY:'TR',TTD:'TT',TWD:'TW',TZS:'TZ',UAH:'UA',UGX:'UG',USD:'US',UYU:'UY',
+    UZS:'UZ',VES:'VE',VND:'VN',YER:'YE',ZAR:'ZA',ZMW:'ZM',
+  };
+
+  function getFlag(code) {
+    const c = CURRENCY_TO_COUNTRY[code.toUpperCase()];
+    if (!c) return '';
+    return [...c].map(l => String.fromCodePoint(l.charCodeAt(0) - 65 + 0x1F1E6)).join('');
+  }
+
   function getToken() { return localStorage.getItem('vl_token') || ''; }
 
   function saveTokenClick() {
@@ -303,15 +246,16 @@
 
   function showTokenSaved() {
     document.getElementById('tokenInput').style.display = 'none';
-    document.getElementById('tokenSaved').style.display  = 'flex';
+    document.getElementById('tokenSaved').style.display = 'flex';
   }
 
   function resetToken() {
     localStorage.removeItem('vl_token');
     document.getElementById('tokenField').value = '';
     document.getElementById('tokenInput').style.display = 'flex';
-    document.getElementById('tokenSaved').style.display  = 'none';
-    document.getElementById('tableWrap').style.display   = 'none';
+    document.getElementById('tokenSaved').style.display = 'none';
+    document.getElementById('tableWrap').style.display = 'none';
+    document.getElementById('addRowBtn').style.display = 'none';
     document.getElementById('publishArea').style.display = 'none';
     document.getElementById('publishHint').style.display = 'none';
     setStatus('', '');
@@ -353,10 +297,8 @@
       resetToken();
       return;
     }
-    if (!res.ok) {
-      setStatus(`Klaida: ${res.status}`, 'error');
-      return;
-    }
+    if (!res.ok) { setStatus(`Klaida: ${res.status}`, 'error'); return; }
+
     const raw = await res.json();
     fileSha = raw.sha;
     const data = JSON.parse(decodeB64(raw.content));
@@ -367,29 +309,57 @@
   function renderTable(currencies) {
     const tbody = document.getElementById('rateRows');
     tbody.innerHTML = '';
-    currencies.forEach(c => {
-      const tr = document.createElement('tr');
-      tr.dataset.code = c.code;
-      tr.dataset.name = c.name;
-      tr.innerHTML =
-        `<td><div class="code">${c.code}</div><div class="cname">${c.name}</div></td>` +
-        `<td class="c"><input class="rate-input buy-input" value="${c.buy}" inputmode="decimal"></td>` +
-        `<td class="c"><input class="rate-input sell-input sell" value="${c.sell}" inputmode="decimal"></td>`;
-      tbody.appendChild(tr);
-    });
-    document.getElementById('tableWrap').style.display   = 'block';
+    currencies.forEach(c => tbody.appendChild(makeRow(c)));
+    document.getElementById('tableWrap').style.display = 'block';
+    document.getElementById('addRowBtn').style.display = 'flex';
     document.getElementById('publishArea').style.display = 'flex';
     document.getElementById('publishHint').style.display = 'block';
   }
 
+  function makeRow(c) {
+    const tr = document.createElement('tr');
+    tr.dataset.code = c.code;
+    tr.dataset.name = c.name;
+    tr.innerHTML =
+      `<td class="flag-cell">${getFlag(c.code)}</td>` +
+      `<td class="code-cell"><div class="code">${c.code}</div><div class="cname">${c.name}</div></td>` +
+      `<td class="c"><input class="rate-input buy-input" value="${c.buy}" inputmode="decimal"></td>` +
+      `<td class="c"><input class="rate-input sell-input sell" value="${c.sell}" inputmode="decimal"></td>` +
+      `<td class="del-col"><button class="del-btn" title="Ištrinti" onclick="this.closest('tr').remove()">×</button></td>`;
+    return tr;
+  }
+
+  function addRow() {
+    const tr = document.createElement('tr');
+    tr.className = 'new-row';
+    tr.innerHTML =
+      `<td class="flag-cell"><span class="flag-preview" id="fp_${Date.now()}"></span></td>` +
+      `<td class="code-cell">
+        <input class="code-input" placeholder="EUR" maxlength="4"
+          oninput="this.value=this.value.toUpperCase();this.closest('tr').querySelector('.flag-preview').textContent=getFlag(this.value);this.closest('tr').dataset.code=this.value;">
+        <input class="name-input" placeholder="Valiutos pavadinimas"
+          oninput="this.closest('tr').dataset.name=this.value;">
+      </td>` +
+      `<td class="c"><input class="rate-input buy-input" placeholder="0.000" inputmode="decimal"></td>` +
+      `<td class="c"><input class="rate-input sell-input sell" placeholder="0.000" inputmode="decimal"></td>` +
+      `<td class="del-col"><button class="del-btn" title="Ištrinti" onclick="this.closest('tr').remove()">×</button></td>`;
+    document.getElementById('rateRows').appendChild(tr);
+    tr.querySelector('.code-input').focus();
+  }
+
   async function publish() {
     const rows = document.querySelectorAll('#rateRows tr');
-    const currencies = Array.from(rows).map(row => ({
-      code: row.dataset.code,
-      name: row.dataset.name,
-      buy:  row.querySelector('.buy-input').value.trim(),
-      sell: row.querySelector('.sell-input').value.trim(),
-    }));
+    const currencies = [];
+    for (const row of rows) {
+      const code = (row.dataset.code || row.querySelector('.code-input')?.value || '').trim().toUpperCase();
+      const name = (row.dataset.name || row.querySelector('.name-input')?.value || '').trim();
+      const buy  = row.querySelector('.buy-input').value.trim();
+      const sell = row.querySelector('.sell-input').value.trim();
+      if (!code || !buy || !sell) continue;
+      currencies.push({ code, name, buy, sell });
+    }
+    if (!currencies.length) { setStatus('Nėra valiutų įrašų.', 'error'); return; }
+
     const today = new Date().toISOString().slice(0, 10);
     const payload = JSON.stringify({ updated: today, currencies }, null, 2);
 
@@ -429,11 +399,7 @@
     setStatus('✓ Paskelbta! Svetainė atsinaujins per ~1 minutę.', 'success');
   }
 
-  // Init
-  if (getToken()) {
-    showTokenSaved();
-    loadRates();
-  }
+  if (getToken()) { showTokenSaved(); loadRates(); }
 </script>
 </body>
 </html>

@@ -379,6 +379,7 @@
     background:var(--brass);
     flex:none;
   }
+  .code-badge .flag{font-size:17px;line-height:1;}
   .currency-name{color:#534b3c; font-size:13.5px;}
   td.num{text-align:center;}
   .tile{
@@ -758,6 +759,29 @@
     });
   });
 
+  const CURRENCY_TO_COUNTRY = {
+    AED:'AE',AFN:'AF',ALL:'AL',AMD:'AM',AOA:'AO',ARS:'AR',AUD:'AU',AZN:'AZ',
+    BAM:'BA',BBD:'BB',BDT:'BD',BGN:'BG',BHD:'BH',BIF:'BI',BND:'BN',BOB:'BO',
+    BRL:'BR',BTN:'BT',BWP:'BW',BYN:'BY',BZD:'BZ',CAD:'CA',CDF:'CD',CHF:'CH',
+    CLP:'CL',CNY:'CN',COP:'CO',CRC:'CR',CUP:'CU',CZK:'CZ',DKK:'DK',DOP:'DO',
+    DZD:'DZ',EGP:'EG',EUR:'EU',FJD:'FJ',GBP:'GB',GEL:'GE',GHS:'GH',GMD:'GM',
+    GTQ:'GT',GYD:'GY',HKD:'HK',HNL:'HN',HUF:'HU',IDR:'ID',ILS:'IL',INR:'IN',
+    IQD:'IQ',IRR:'IR',ISK:'IS',JMD:'JM',JOD:'JO',JPY:'JP',KES:'KE',KGS:'KG',
+    KHR:'KH',KRW:'KR',KWD:'KW',KZT:'KZ',LAK:'LA',LBP:'LB',LKR:'LK',LYD:'LY',
+    MAD:'MA',MDL:'MD',MGA:'MG',MKD:'MK',MMK:'MM',MNT:'MN',MOP:'MO',MUR:'MU',
+    MVR:'MV',MWK:'MW',MXN:'MX',MYR:'MY',MZN:'MZ',NAD:'NA',NGN:'NG',NIO:'NI',
+    NOK:'NO',NPR:'NP',NZD:'NZ',OMR:'OM',PAB:'PA',PEN:'PE',PHP:'PH',PKR:'PK',
+    PLN:'PL',PYG:'PY',QAR:'QA',RON:'RO',RSD:'RS',RUB:'RU',RWF:'RW',SAR:'SA',
+    SEK:'SE',SGD:'SG',SOS:'SO',SRD:'SR',THB:'TH',TJS:'TJ',TMT:'TM',TND:'TN',
+    TRY:'TR',TTD:'TT',TWD:'TW',TZS:'TZ',UAH:'UA',UGX:'UG',USD:'US',UYU:'UY',
+    UZS:'UZ',VES:'VE',VND:'VN',YER:'YE',ZAR:'ZA',ZMW:'ZM',
+  };
+  function getFlag(code) {
+    const c = CURRENCY_TO_COUNTRY[code.toUpperCase()];
+    if (!c) return '';
+    return [...c].map(l => String.fromCodePoint(l.charCodeAt(0) - 65 + 0x1F1E6)).join('');
+  }
+
   fetch('/currencies.json')
     .then(r => r.json())
     .then(data => {
@@ -766,7 +790,7 @@
       data.currencies.forEach(c => {
         const tr = document.createElement('tr');
         tr.innerHTML =
-          `<td><span class="code-badge"><span class="dot"></span>${c.code}</span><div class="currency-name">${c.name}</div></td>` +
+          `<td><span class="code-badge"><span class="flag">${getFlag(c.code)}</span>${c.code}</span><div class="currency-name">${c.name}</div></td>` +
           `<td class="num"><span class="tile">${c.buy}</span></td>` +
           `<td class="num"><span class="tile sell">${c.sell}</span></td>`;
         tbody.appendChild(tr);
@@ -778,7 +802,7 @@
         div.className = 'flip-card';
         div.style.animationDelay = `${i * 0.12}s`;
         div.innerHTML =
-          `<div class="flip-code">${c.code}<small>${c.name}</small></div>` +
+          `<div class="flip-code"><span style="font-size:15px;margin-right:5px;">${getFlag(c.code)}</span>${c.code}<small>${c.name}</small></div>` +
           `<div class="flip-tiles">` +
             `<div class="flip-tile"><div class="num">${c.buy}</div><div class="lbl">Perkame</div></div>` +
             `<div class="flip-tile"><div class="num">${c.sell}</div><div class="lbl">Parduodame</div></div>` +
