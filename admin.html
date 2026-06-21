@@ -60,11 +60,37 @@
   .link-btn{background:none;border:none;color:#6b6354;font-size:12.5px;cursor:pointer;text-decoration:underline;padding:0;font-family:inherit;}
   .link-btn:hover{color:var(--rust);}
 
-  /* Status */
-  .status{font-size:13.5px;padding:12px 16px;border-radius:8px;display:none;margin-bottom:20px;}
-  .status.info{display:block;background:#eaf0fb;color:#0f2444;border:1px solid #c0d0ea;}
-  .status.success{display:block;background:#eafaf1;color:#1a5c38;border:1px solid #a8dfc0;}
-  .status.error{display:block;background:#fdf0ee;color:#8b2316;border:1px solid #f0c0b8;}
+  /* Toast popup */
+  .toast{
+    position:fixed;
+    top:80px;
+    left:50%;
+    transform:translateX(-50%) translateY(-12px);
+    min-width:300px;
+    max-width:520px;
+    padding:16px 20px 16px 18px;
+    border-radius:14px;
+    font-size:14.5px;
+    font-weight:500;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    box-shadow:0 12px 40px rgba(0,0,0,0.22),0 2px 8px rgba(0,0,0,0.12);
+    opacity:0;
+    pointer-events:none;
+    transition:opacity 0.22s ease,transform 0.22s ease;
+    z-index:999;
+    white-space:nowrap;
+  }
+  .toast.show{opacity:1;pointer-events:auto;transform:translateX(-50%) translateY(0);}
+  .toast.info{background:var(--blue-900);color:var(--paper);}
+  .toast.success{background:#1a5c38;color:#fff;}
+  .toast.error{background:#7a1f14;color:#fff;}
+  .toast-close{
+    margin-left:auto;background:none;border:none;color:inherit;
+    opacity:0.6;cursor:pointer;font-size:20px;line-height:1;padding:0 2px;flex:none;
+  }
+  .toast-close:hover{opacity:1;}
 
   /* Table */
   .table-wrap{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-bottom:16px;}
@@ -152,7 +178,7 @@
 <body>
 
 <div class="topbar">
-  <div class="brand">vienas<span>litas</span></div>
+  <a href="/" class="brand" style="text-decoration:none;color:inherit;">vienas<span>litas</span></a>
   <span class="topbar-tag">Kursų redagavimas</span>
 </div>
 
@@ -171,8 +197,6 @@
       <button class="link-btn" onclick="resetToken()">Keisti raktažodį</button>
     </div>
   </div>
-
-  <div class="status" id="status"></div>
 
   <div class="table-wrap" id="tableWrap" style="display:none;">
     <table>
@@ -203,12 +227,18 @@
   <p class="hint" id="publishHint" style="display:none;">Po paskelbimo svetainė atsinaujins automatiškai per ~1 minutę.</p>
 </div>
 
+<div class="toast" id="toast" role="alert" aria-live="assertive">
+  <span class="toast-msg"></span>
+  <button class="toast-close" onclick="hideToast()" aria-label="Uždaryti">×</button>
+</div>
+
 <script>
   const REPO = 'MindaugasJucius/vienaslitas';
   const FILE = 'currencies.json';
   const API  = `https://api.github.com/repos/${REPO}/contents/${FILE}`;
 
   let fileSha = null;
+  let toastTimer = null;
 
   const CURRENCY_TO_COUNTRY = {
     AED:'AE',AFN:'AF',ALL:'AL',AMD:'AM',AOA:'AO',ARS:'AR',AUD:'AU',AZN:'AZ',
@@ -261,10 +291,20 @@
     setStatus('', '');
   }
 
+  function hideToast() {
+    document.getElementById('toast').classList.remove('show');
+    clearTimeout(toastTimer);
+  }
+
   function setStatus(msg, type) {
-    const el = document.getElementById('status');
-    el.textContent = msg;
-    el.className = 'status' + (type ? ' ' + type : '');
+    clearTimeout(toastTimer);
+    if (!msg) { hideToast(); return; }
+    const toast = document.getElementById('toast');
+    toast.querySelector('.toast-msg').textContent = msg;
+    toast.className = `toast ${type}`;
+    void toast.offsetWidth;
+    toast.classList.add('show');
+    if (type === 'success') toastTimer = setTimeout(hideToast, 4000);
   }
 
   function decodeB64(b64) {
