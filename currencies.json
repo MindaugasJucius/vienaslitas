@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21",
+  "updated": "2026-06-22",
   "currencies": [
     {
       "code": "USD",
@@ -96,6 +96,12 @@
       "name": "Gruzijos laris",
       "buy": "3.070",
       "sell": "2.830"
+    },
+    {
+      "code": "ISK",
+      "name": "Islandijos krona",
+      "buy": "11",
+      "sell": "11"
     }
   ]
 }
