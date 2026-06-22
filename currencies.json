@@ -11,13 +11,13 @@
       "code": "GBP",
       "name": "D. Britanijos svaras",
       "buy": "0.893",
-      "sell": "0.857"
+      "sell": "0.856"
     },
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
-      "buy": "0.951",
-      "sell": "0.909"
+      "buy": "0.952",
+      "sell": "0.910"
     },
     {
       "code": "PLN",
@@ -70,8 +70,8 @@
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.678",
-      "sell": "1.594"
+      "buy": "1.677",
+      "sell": "1.595"
     },
     {
       "code": "AUD",
@@ -106,8 +106,8 @@
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,00",
-      "sell": "3,99"
+      "buy": "4,01",
+      "sell": "3,40"
     },
     {
       "code": "CNY",
