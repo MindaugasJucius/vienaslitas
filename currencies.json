@@ -4,8 +4,8 @@
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.171",
-      "sell": "1.117"
+      "buy": "1.170",
+      "sell": "1.110"
     },
     {
       "code": "GBP",
@@ -23,7 +23,7 @@
       "code": "PLN",
       "name": "Lenkijos zlotas",
       "buy": "4.280",
-      "sell": "4.180"
+      "sell": "4.190"
     },
     {
       "code": "NOK",
@@ -47,7 +47,7 @@
       "code": "CZK",
       "name": "Čekijos krona",
       "buy": "24.80",
-      "sell": "23.40"
+      "sell": "23.30"
     },
     {
       "code": "HUF",
@@ -70,8 +70,8 @@
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.677",
-      "sell": "1.595"
+      "buy": "1.675",
+      "sell": "1.592"
     },
     {
       "code": "AUD",
@@ -119,13 +119,13 @@
       "code": "THB",
       "name": "Tailando batas",
       "buy": "41,50",
-      "sell": "34,40"
+      "sell": "34,30"
     },
     {
       "code": "AED",
       "name": "JAE Dirhamas",
       "buy": "4,50",
-      "sell": "4,00"
+      "sell": "3,99"
     },
     {
       "code": "BYN",
