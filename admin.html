@@ -259,6 +259,7 @@
   };
 
   function getFlag(code) {
+    if (code.toUpperCase() === 'SCP') return String.fromCodePoint(0x1F3F4,0xE0067,0xE0062,0xE0073,0xE0063,0xE0074,0xE007F);
     const c = CURRENCY_TO_COUNTRY[code.toUpperCase()];
     if (!c) return '';
     return [...c].map(l => String.fromCodePoint(l.charCodeAt(0) - 65 + 0x1F1E6)).join('');
