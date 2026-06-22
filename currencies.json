@@ -4,20 +4,20 @@
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.161",
-      "sell": "1.133"
+      "buy": "1.171",
+      "sell": "1.117"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.887",
-      "sell": "0.862"
+      "buy": "0.893",
+      "sell": "0.857"
     },
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
-      "buy": "0.944",
-      "sell": "0.911"
+      "buy": "0.951",
+      "sell": "0.909"
     },
     {
       "code": "PLN",
@@ -46,14 +46,14 @@
     {
       "code": "CZK",
       "name": "Čekijos krona",
-      "buy": "24.90",
-      "sell": "23.30"
+      "buy": "24.80",
+      "sell": "23.40"
     },
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "367.0",
-      "sell": "334.0"
+      "buy": "366.0",
+      "sell": "333.0"
     },
     {
       "code": "RON",
@@ -70,8 +70,8 @@
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.675",
-      "sell": "1.592"
+      "buy": "1.678",
+      "sell": "1.594"
     },
     {
       "code": "AUD",
@@ -94,14 +94,50 @@
     {
       "code": "GEL",
       "name": "Gruzijos laris",
-      "buy": "3.070",
-      "sell": "2.830"
+      "buy": "3.050",
+      "sell": "2.820"
+    },
+    {
+      "code": "SCP",
+      "name": "Škotijos svaras sterlingų",
+      "buy": "0,923",
+      "sell": "0,866"
+    },
+    {
+      "code": "ILS",
+      "name": "Izraelio naujasis šekelis",
+      "buy": "4,00",
+      "sell": "3,99"
+    },
+    {
+      "code": "CNY",
+      "name": "Kinijos ženminbi juanis",
+      "buy": "8,20",
+      "sell": "7,35"
+    },
+    {
+      "code": "THB",
+      "name": "Tailando batas",
+      "buy": "41,50",
+      "sell": "34,40"
+    },
+    {
+      "code": "AED",
+      "name": "JAE Dirhamas",
+      "buy": "4,50",
+      "sell": "4,00"
+    },
+    {
+      "code": "BYN",
+      "name": "Baltarusijos rublis",
+      "buy": "3,28",
+      "sell": "3,16"
     },
     {
       "code": "ISK",
       "name": "Islandijos krona",
-      "buy": "11",
-      "sell": "11"
+      "buy": "173",
+      "sell": "135"
     }
   ]
 }
