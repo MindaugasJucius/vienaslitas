@@ -248,7 +248,7 @@
     overflow-y:auto;
     scroll-snap-type:y mandatory;
     scrollbar-width:none;
-    max-height:calc(3 * 94px + 2 * 16px);
+    max-height:calc(3 * 106px + 2 * 16px);
   }
   .flip-stack::-webkit-scrollbar{display:none;}
   .flip-card{
@@ -310,6 +310,7 @@
     height:1px;
     background:rgba(0,0,0,0.45);
   }
+  .flip-tile .num.sell{background:linear-gradient(180deg, #3a1d1a, #2a1311);}
   .flip-tile .lbl{
     font-family:'JetBrains Mono', monospace;
     font-size:9.5px;
@@ -870,7 +871,7 @@
           `<div class="flip-code"><span style="font-size:15px;margin-right:5px;">${getFlag(c.code)}</span>${c.code}<small>${c.name}</small></div>` +
           `<div class="flip-tiles">` +
             `<div class="flip-tile"><div class="num">${c.buy}</div><div class="lbl">Perkame</div></div>` +
-            `<div class="flip-tile"><div class="num">${c.sell}</div><div class="lbl">Parduodame</div></div>` +
+            `<div class="flip-tile"><div class="num sell">${c.sell}</div><div class="lbl">Parduodame</div></div>` +
           `</div>`;
         div.addEventListener('click', () => {
           const row = document.querySelector(`#rates-body tr[data-code="${c.code}"]`);
@@ -883,8 +884,31 @@
         flipStack.appendChild(div);
       });
 
-      // Auto-scroll flip cards on mobile (no-op on desktop where stack is vertical)
+      // Set container height from actual rendered card sizes (3 cards + 2 gaps)
       const flipCards = flipStack.querySelectorAll('.flip-card');
+      requestAnimationFrame(() => {
+        const cards = Array.from(flipCards);
+        if (cards.length >= 3) {
+          const h = cards[0].offsetHeight + cards[1].offsetHeight + cards[2].offsetHeight + 32;
+          flipStack.style.maxHeight = h + 'px';
+        }
+      });
+
+      // Custom ease-in-out scroll (0.5s duration)
+      function easeScroll(el, axis, to, duration) {
+        const from = axis === 'top' ? el.scrollTop : el.scrollLeft;
+        const delta = to - from;
+        if (!delta) return;
+        const start = performance.now();
+        (function step(now) {
+          const t = Math.min((now - start) / duration, 1);
+          const ease = t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+          if (axis === 'top') el.scrollTop = from + delta * ease;
+          else el.scrollLeft = from + delta * ease;
+          if (t < 1) requestAnimationFrame(step);
+        })(start);
+      }
+
       if (flipCards.length > 1) {
         let idx = 0;
         let paused = false;
@@ -901,12 +925,9 @@
           idx = (idx + 1) % flipCards.length;
           const card = flipCards[idx];
           if (flipStack.scrollHeight > flipStack.clientHeight) {
-            flipStack.scrollTo({ top: idx * (flipCards[0].offsetHeight + 16), behavior: 'smooth' });
+            easeScroll(flipStack, 'top', idx * (flipCards[0].offsetHeight + 16), 500);
           } else {
-            flipStack.scrollTo({
-              left: card.offsetLeft - (flipStack.offsetWidth - card.offsetWidth) / 2,
-              behavior: 'smooth'
-            });
+            easeScroll(flipStack, 'left', card.offsetLeft - (flipStack.offsetWidth - card.offsetWidth) / 2, 500);
           }
         }, 3000);
       }
