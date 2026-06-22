@@ -11,8 +11,11 @@
 <meta property="og:locale" content="lt_LT">
 <meta property="og:url" content="https://vienaslitas.lt/">
 <meta property="og:title" content="Vienas litas — Valiutos keitykla Šiauliuose">
-<meta property="og:description" content="Valiutos keitykla Šiauliuose, Vytauto g. 70. Daugiau nei 15 valiutų, geriausi kursai, individualios sąlygos didesnėms sumoms. I–V 8–18, VI 8–14.">
+<meta property="og:description" content="Valiutos keitykla Šiauliuose, Vytauto g. 70. Daugiau nei 20 valiutų, geriausi kursai, individualios sąlygos didesnėms sumoms. I–V 8–18, VI 8–14.">
 <meta property="og:site_name" content="vienaslitas.lt">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -103,24 +106,24 @@
     height:72px;
   }
   .brand{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    text-decoration:none;
+  }
+  .brand img{
+    height:64px;
+    width:auto;
+    display:block;
+  }
+  .brand-name{
     font-family:'Fraunces', serif;
     font-weight:700;
-    font-size:21px;
-    text-decoration:none;
-    letter-spacing:-0.01em;
-    display:flex;
-    align-items:baseline;
-    gap:2px;
-  }
-  .brand span{color:var(--rust);}
-  .brand small{
-    font-family:'JetBrains Mono', monospace;
-    font-weight:500;
-    font-size:11px;
-    letter-spacing:0.08em;
-    color:#6b6354;
-    margin-left:10px;
+    font-size:17px;
+    letter-spacing:0.04em;
     text-transform:uppercase;
+    color:var(--ink);
+    line-height:1.15;
   }
   nav.main-nav{
     display:flex;
@@ -702,7 +705,7 @@
 
 <header class="site-header">
   <div class="wrap nav-wrap">
-    <a href="#hero" class="brand">vienas<span>litas</span><small>.lt</small></a>
+    <a href="#hero" class="brand"><img src="/logo.png" alt="Vienas litas"><span class="brand-name">Vienas<br>Litas</span></a>
     <nav class="main-nav" id="mainNav">
       <a href="#kursai">Valiutų kursai</a>
       <a href="#paslaugos">Paslaugos</a>
