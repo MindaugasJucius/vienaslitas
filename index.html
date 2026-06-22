@@ -245,7 +245,12 @@
     display:flex;
     flex-direction:column;
     gap:16px;
+    overflow-y:auto;
+    scroll-snap-type:y mandatory;
+    scrollbar-width:none;
+    max-height:calc(3 * 94px + 2 * 16px);
   }
+  .flip-stack::-webkit-scrollbar{display:none;}
   .flip-card{
     background:linear-gradient(180deg, #0d2040, #081528);
     border-radius:var(--radius-m);
@@ -257,9 +262,9 @@
     gap:16px;
     opacity:0;
     animation:flip-in 0.6s ease forwards;
+    flex:none;
+    scroll-snap-align:start;
   }
-  .flip-card:nth-child(2){animation-delay:0.12s;}
-  .flip-card:nth-child(3){animation-delay:0.24s;}
   @keyframes flip-in{
     from{opacity:0; transform:perspective(600px) rotateX(-18deg) translateY(10px);}
     to{opacity:1; transform:perspective(600px) rotateX(0) translateY(0);}
@@ -857,10 +862,10 @@
       });
 
       const flipStack = document.getElementById('flip-stack');
-      data.currencies.slice(0, 3).forEach((c, i) => {
+      data.currencies.forEach((c, i) => {
         const div = document.createElement('div');
         div.className = 'flip-card';
-        div.style.animationDelay = `${i * 0.12}s`;
+        div.style.animationDelay = `${i * 0.04}s`;
         div.innerHTML =
           `<div class="flip-code"><span style="font-size:15px;margin-right:5px;">${getFlag(c.code)}</span>${c.code}<small>${c.name}</small></div>` +
           `<div class="flip-tiles">` +
@@ -895,10 +900,14 @@
           if (paused) return;
           idx = (idx + 1) % flipCards.length;
           const card = flipCards[idx];
-          flipStack.scrollTo({
-            left: card.offsetLeft - (flipStack.offsetWidth - card.offsetWidth) / 2,
-            behavior: 'smooth'
-          });
+          if (flipStack.scrollHeight > flipStack.clientHeight) {
+            flipStack.scrollTo({ top: idx * (flipCards[0].offsetHeight + 16), behavior: 'smooth' });
+          } else {
+            flipStack.scrollTo({
+              left: card.offsetLeft - (flipStack.offsetWidth - card.offsetWidth) / 2,
+              behavior: 'smooth'
+            });
+          }
         }, 3000);
       }
 
