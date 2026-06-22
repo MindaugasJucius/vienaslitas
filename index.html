@@ -603,6 +603,48 @@
     .tile{min-width:48px; padding:5px 8px; font-size:13px;}
     .currency-name{font-size:12px;}
   }
+
+  /* ---------- CALL MODAL ---------- */
+  .call-modal{
+    position:fixed;inset:0;z-index:100;
+    display:flex;align-items:center;justify-content:center;
+    background:rgba(11,29,53,0.55);
+    opacity:0;pointer-events:none;transition:opacity 0.2s;
+  }
+  .call-modal.open{opacity:1;pointer-events:auto;}
+  .call-modal-box{
+    background:var(--paper);border-radius:var(--radius-m);
+    padding:32px 28px;max-width:300px;width:88%;text-align:center;
+    box-shadow:0 24px 64px rgba(0,0,0,0.35);
+    transform:translateY(14px);transition:transform 0.2s;
+  }
+  .call-modal.open .call-modal-box{transform:none;}
+  .call-modal-currency{
+    font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600;
+    color:var(--blue-900);margin-bottom:10px;letter-spacing:0.04em;
+  }
+  .call-modal-text{font-size:15px;color:var(--ink);margin-bottom:22px;line-height:1.5;}
+  .call-modal-tel{
+    display:flex;align-items:center;justify-content:center;gap:8px;
+    font-family:'JetBrains Mono',monospace;font-weight:600;font-size:14px;
+    text-decoration:none;background:var(--blue-900);color:var(--paper);
+    padding:13px 20px;border-radius:999px;margin-bottom:12px;
+    transition:background 0.2s;
+  }
+  .call-modal-tel:hover{background:var(--blue-800);}
+  .call-modal-cancel{
+    background:none;border:none;color:#6b6354;font-size:13px;
+    cursor:pointer;text-decoration:underline;font-family:inherit;
+  }
+  .call-modal-cancel:hover{color:var(--ink);}
+
+  @keyframes row-flash{
+    0%{background:rgba(201,162,39,0.25);}
+    100%{background:transparent;}
+  }
+  .row-flash{animation:row-flash 1.4s ease forwards;}
+  table.rates-table tbody tr{cursor:pointer;}
+  .flip-card{cursor:pointer;}
 </style>
 </head>
 <body>
@@ -739,14 +781,14 @@
 
       <div class="map-frame">
         <iframe
-          src="https://www.google.com/maps?q=Vytauto+gatv%C4%97+70,+76353+%C5%A0iauliai,+Lietuva&output=embed"
+          src="https://maps.google.com/maps?q=55.9269662,23.3182546&output=embed&z=19"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          title="vienaslitas.lt vieta žemėlapyje — Vytauto gatvė 70, Šiauliai">
+          title="vienaslitas.lt vieta žemėlapyje — Vienas litas, Šiauliai">
         </iframe>
         <div class="map-caption">
           <span>Vytauto g. 70, Šiauliai</span>
-          <a href="https://www.google.com/maps/search/?api=1&query=Vytauto+gatv%C4%97+70,+76353+%C5%A0iauliai,+Lietuva" target="_blank" rel="noopener">Atidaryti Google Maps ↗</a>
+          <a href="https://maps.app.goo.gl/NGcFSoxTuVvPoJbQ6" target="_blank" rel="noopener">Atidaryti Google Maps ↗</a>
         </div>
       </div>
     </div>
@@ -804,10 +846,12 @@
       document.getElementById('loading-row')?.remove();
       data.currencies.forEach(c => {
         const tr = document.createElement('tr');
+        tr.dataset.code = c.code;
         tr.innerHTML =
           `<td><span class="code-badge"><span class="flag">${getFlag(c.code)}</span>${c.code}</span><div class="currency-name">${c.name}</div></td>` +
           `<td class="num"><span class="tile">${c.buy}</span></td>` +
           `<td class="num"><span class="tile sell">${c.sell}</span></td>`;
+        tr.addEventListener('click', () => openCallModal(`${getFlag(c.code)} ${c.code} — ${c.name}`));
         tbody.appendChild(tr);
       });
 
@@ -822,6 +866,14 @@
             `<div class="flip-tile"><div class="num">${c.buy}</div><div class="lbl">Perkame</div></div>` +
             `<div class="flip-tile"><div class="num">${c.sell}</div><div class="lbl">Parduodame</div></div>` +
           `</div>`;
+        div.addEventListener('click', () => {
+          const row = document.querySelector(`#rates-body tr[data-code="${c.code}"]`);
+          if (!row) return;
+          row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          row.classList.remove('row-flash');
+          void row.offsetWidth;
+          row.classList.add('row-flash');
+        });
         flipStack.appendChild(div);
       });
 
@@ -851,7 +903,28 @@
 
       document.querySelector('.updated-tag').textContent = 'Atnaujinta: ' + data.updated;
     });
+
+  function openCallModal(label) {
+    document.getElementById('callModalCurrency').textContent = label;
+    document.getElementById('callModal').classList.add('open');
+  }
+  function closeCallModal() {
+    document.getElementById('callModal').classList.remove('open');
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeCallModal(); });
 </script>
+
+<div class="call-modal" id="callModal" onclick="if(event.target===this)closeCallModal()">
+  <div class="call-modal-box">
+    <div class="call-modal-currency" id="callModalCurrency"></div>
+    <p class="call-modal-text">Skambinti dėl valiutos keitimo?</p>
+    <a class="call-modal-tel" href="tel:+37068628792">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      +370 686 28792
+    </a>
+    <button class="call-modal-cancel" onclick="closeCallModal()">Atšaukti</button>
+  </div>
+</div>
 
 </body>
 </html>

@@ -80,8 +80,8 @@
     pointer-events:none;
     transition:opacity 0.22s ease,transform 0.22s ease;
     z-index:999;
-    white-space:nowrap;
   }
+  .toast.error{white-space:normal;max-width:480px;}
   .toast.show{opacity:1;pointer-events:auto;transform:translateX(-50%) translateY(0);}
   .toast.info{background:var(--blue-900);color:var(--paper);}
   .toast.success{background:#1a5c38;color:#fff;}
@@ -430,8 +430,9 @@
 
     btn.disabled = false;
     if (!res.ok) {
-      const err = await res.json().catch(() => ({}));
-      setStatus(`Klaida: ${err.message || res.status}`, 'error');
+      const err = await res.json().catch(() => null);
+      const detail = err ? [err.message, (err.errors||[]).map(e=>e.message).join('; ')].filter(Boolean).join(' — ') : `HTTP ${res.status}`;
+      setStatus(`Klaida ${res.status}: ${detail}`, 'error');
       return;
     }
     const result = await res.json();
