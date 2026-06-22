@@ -249,6 +249,7 @@
     scroll-snap-type:y mandatory;
     scrollbar-width:none;
     max-height:calc(3 * 106px + 2 * 16px);
+    padding:4px 8px;
   }
   .flip-stack::-webkit-scrollbar{display:none;}
   .flip-card{
@@ -568,7 +569,7 @@
       -webkit-overflow-scrolling:touch;
       scrollbar-width:none;
       justify-content:safe center;
-      padding-bottom:6px;
+      padding:6px 8px;
       gap:12px;
     }
     .flip-stack::-webkit-scrollbar{display:none;}
@@ -681,7 +682,7 @@
       <p class="eyebrow">Valiutos keitykla · Šiauliai · Vytauto g. 70</p>
       <h1>Palankus kursas įvairioms valiutoms kasdien.</h1>
       <div class="hero-actions">
-        <a href="#kursai" class="btn btn-primary">Žiūrėti kursus</a>
+        <a href="#kursai" class="btn btn-primary">Žiūrėti visus kursus</a>
         <a href="tel:+37068628792" class="btn btn-ghost">Skambinti +370 686 28792</a>
       </div>
     </div>
@@ -694,7 +695,7 @@
     <div class="section-head">
       <p class="eyebrow">Atnaujinama kiekvieną darbo dieną</p>
       <h2>Valiutų kursai</h2>
-      <p>Visi kursai nurodyti kaip euro ir užsienio valiutų santykiai. Perkame valiutą iš jūsų ir parduodame jums pagal žemiau nurodytus kursus.</p>
+      <p>Visi kursai nurodyti kaip euro ir užsienio valiutų santykiai. Perkame valiutą ir parduodame pagal žemiau nurodytus kursus.</p>
     </div>
 
     <div class="table-scroller">
@@ -895,31 +896,74 @@
       });
 
       // Custom ease-in-out scroll (0.5s duration)
+      let animating = false;
       function easeScroll(el, axis, to, duration) {
         const from = axis === 'top' ? el.scrollTop : el.scrollLeft;
         const delta = to - from;
         if (!delta) return;
+        animating = true;
+        el.style.scrollSnapType = 'none';
         const start = performance.now();
-        (function step(now) {
+        requestAnimationFrame(function step(now) {
           const t = Math.min((now - start) / duration, 1);
           const ease = t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
           if (axis === 'top') el.scrollTop = from + delta * ease;
           else el.scrollLeft = from + delta * ease;
           if (t < 1) requestAnimationFrame(step);
-        })(start);
+          else { el.style.scrollSnapType = ''; animating = false; }
+        });
       }
 
       if (flipCards.length > 1) {
         let idx = 0;
         let paused = false;
         let resumeTimer;
+
+        function updateCardHighlights() {
+          const isVertical = flipStack.scrollHeight > flipStack.clientHeight;
+          const center = isVertical
+            ? flipStack.scrollTop + flipStack.clientHeight / 2
+            : flipStack.scrollLeft + flipStack.clientWidth / 2;
+          const step = isVertical
+            ? flipCards[0].offsetHeight + 16
+            : flipCards[0].offsetWidth + 12;
+          Array.from(flipCards).forEach(c => {
+            const cardCenter = isVertical
+              ? c.offsetTop + c.offsetHeight / 2
+              : c.offsetLeft + c.offsetWidth / 2;
+            const norm = Math.min(Math.abs(cardCenter - center) / step, 1);
+            const factor = (1 + Math.cos(norm * Math.PI)) / 2;
+            c.style.filter = `brightness(${(1 + 0.2 * factor).toFixed(3)})`;
+          });
+        }
+        requestAnimationFrame(updateCardHighlights);
+
         const pause = () => {
           paused = true;
           clearTimeout(resumeTimer);
           resumeTimer = setTimeout(() => { paused = false; }, 2500);
         };
         flipStack.addEventListener('pointerdown', pause, { passive: true });
-        flipStack.addEventListener('scroll', pause, { passive: true });
+        flipStack.addEventListener('scroll', () => {
+          pause();
+          updateCardHighlights();
+          if (!animating) {
+            const isVertical = flipStack.scrollHeight > flipStack.clientHeight;
+            const center = isVertical
+              ? flipStack.scrollTop + flipStack.clientHeight / 2
+              : flipStack.scrollLeft + flipStack.clientWidth / 2;
+            let closest = idx, minDist = Infinity;
+            flipCards.forEach((c, i) => {
+              const cardCenter = isVertical
+                ? c.offsetTop + c.offsetHeight / 2
+                : c.offsetLeft + c.offsetWidth / 2;
+              const dist = Math.abs(cardCenter - center);
+              if (dist < minDist) { minDist = dist; closest = i; }
+            });
+            idx = closest;
+          }
+        }, { passive: true });
+
         setInterval(() => {
           if (paused) return;
           idx = (idx + 1) % flipCards.length;
