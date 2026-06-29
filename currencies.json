@@ -1,23 +1,23 @@
 {
-  "updated": "2026-06-26 08:41",
+  "updated": "2026-06-29 08:42",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
       "buy": "1.163",
-      "sell": "1.108"
+      "sell": "1.111"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.887",
-      "sell": "0.851"
+      "buy": "0.888",
+      "sell": "0.852"
     },
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
-      "buy": "0.946",
-      "sell": "0.904"
+      "buy": "0.948",
+      "sell": "0.905"
     },
     {
       "code": "PLN",
@@ -47,18 +47,18 @@
       "code": "CZK",
       "name": "Čekijos krona",
       "buy": "24.90",
-      "sell": "23.30"
+      "sell": "23.40"
     },
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "369.0",
-      "sell": "336.0"
+      "buy": "368.0",
+      "sell": "335.0"
     },
     {
       "code": "RON",
       "name": "Rumunijos lėja",
-      "buy": "5.490",
+      "buy": "5.500",
       "sell": "4.920"
     },
     {
@@ -70,14 +70,14 @@
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.666",
-      "sell": "1.583"
+      "buy": "1.667",
+      "sell": "1.585"
     },
     {
       "code": "AUD",
       "name": "Australijos doleris",
       "buy": "1.718",
-      "sell": "1.620"
+      "sell": "1.621"
     },
     {
       "code": "TRY",
@@ -94,8 +94,8 @@
     {
       "code": "GEL",
       "name": "Gruzijos laris",
-      "buy": "3.030",
-      "sell": "2.800"
+      "buy": "3.020",
+      "sell": "2.790"
     },
     {
       "code": "SCP",
@@ -130,8 +130,8 @@
     {
       "code": "BYN",
       "name": "Baltarusijos rublis",
-      "buy": "3,25",
-      "sell": "3,18"
+      "buy": "3,320",
+      "sell": "3,200"
     },
     {
       "code": "ISK",
@@ -142,8 +142,8 @@
     {
       "code": "RUB",
       "name": "Rusijos rublis",
-      "buy": "91,00",
-      "sell": "84,00"
+      "buy": "92,00",
+      "sell": "85,00"
     }
   ]
 }
