@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01 09:47",
+  "updated": "2026-07-01 12:07",
   "currencies": [
     {
       "code": "USD",
@@ -17,7 +17,7 @@
       "code": "CHF",
       "name": "Šveicarijos frankas",
       "buy": "0.949",
-      "sell": "0.906"
+      "sell": "0.907"
     },
     {
       "code": "PLN",
@@ -28,13 +28,13 @@
     {
       "code": "NOK",
       "name": "Norvegijos krona",
-      "buy": "13.70",
-      "sell": "12.70"
+      "buy": "14,30",
+      "sell": "13,00"
     },
     {
       "code": "SEK",
       "name": "Švedijos krona",
-      "buy": "12.80",
+      "buy": "13,00",
       "sell": "11.80"
     },
     {
@@ -118,7 +118,7 @@
     {
       "code": "THB",
       "name": "Tailando batas",
-      "buy": "41,80",
+      "buy": "41,90",
       "sell": "34,60"
     },
     {
@@ -136,8 +136,8 @@
     {
       "code": "ISK",
       "name": "Islandijos krona",
-      "buy": "173",
-      "sell": "133"
+      "buy": "167",
+      "sell": "135"
     },
     {
       "code": "RUB",
