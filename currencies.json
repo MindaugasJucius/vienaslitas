@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-03 09:10",
+  "updated": "2026-07-04 09:16",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.170",
-      "sell": "1.117"
+      "buy": "1.169",
+      "sell": "1.115"
     },
     {
       "code": "GBP",
@@ -47,43 +47,43 @@
       "code": "CZK",
       "name": "Čekijos krona",
       "buy": "24.90",
-      "sell": "23.40"
+      "sell": "23.30"
     },
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "368.0",
-      "sell": "336.0"
+      "buy": "370.0",
+      "sell": "338.0"
     },
     {
       "code": "RON",
       "name": "Rumunijos lėja",
-      "buy": "5.500",
-      "sell": "4.920"
+      "buy": "5.490",
+      "sell": "4.910"
     },
     {
       "code": "JPY",
       "name": "Japonijos jena",
       "buy": "188.0",
-      "sell": "172.0"
+      "sell": "173.0"
     },
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.673",
-      "sell": "1.590"
+      "buy": "1.676",
+      "sell": "1.593"
     },
     {
       "code": "AUD",
       "name": "Australijos doleris",
-      "buy": "1.721",
-      "sell": "1.623"
+      "buy": "1.714",
+      "sell": "1.617"
     },
     {
       "code": "TRY",
       "name": "Turkijos lira",
-      "buy": "53.50",
-      "sell": "48.50"
+      "buy": "53.80",
+      "sell": "48.70"
     },
     {
       "code": "UAH",
@@ -94,19 +94,19 @@
     {
       "code": "GEL",
       "name": "Gruzijos laris",
-      "buy": "3.040",
-      "sell": "2.81"
+      "buy": "3.030",
+      "sell": "2.80"
     },
     {
       "code": "SCP",
       "name": "Škotijos svaras sterlingų",
       "buy": "0,912",
-      "sell": "0,855"
+      "sell": "0,856"
     },
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,05",
+      "buy": "4,04",
       "sell": "3,430"
     },
     {
@@ -118,14 +118,14 @@
     {
       "code": "THB",
       "name": "Tailando batas",
-      "buy": "41,80",
-      "sell": "34,60"
+      "buy": "41,70",
+      "sell": "34,50"
     },
     {
       "code": "AED",
       "name": "JAE Dirhamas",
-      "buy": "4,50",
-      "sell": "4,00"
+      "buy": "4,49",
+      "sell": "3,99"
     },
     {
       "code": "BYN",
