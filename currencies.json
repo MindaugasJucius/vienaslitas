@@ -1,41 +1,41 @@
 {
-  "updated": "2026-07-04 09:16",
+  "updated": "2026-07-07 09:48",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.169",
+      "buy": "1.168",
       "sell": "1.115"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.882",
-      "sell": "0.846"
+      "buy": "0.880",
+      "sell": "0.844"
     },
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
-      "buy": "0.944",
-      "sell": "0.902"
+      "buy": "0.947",
+      "sell": "0.905"
     },
     {
       "code": "PLN",
       "name": "Lenkijos zlotas",
       "buy": "4.310",
-      "sell": "4.200"
+      "sell": "4.210"
     },
     {
       "code": "NOK",
       "name": "Norvegijos krona",
-      "buy": "13,80",
-      "sell": "13,00"
+      "buy": "14,00",
+      "sell": "13,20"
     },
     {
       "code": "SEK",
       "name": "Švedijos krona",
       "buy": "13,00",
-      "sell": "11.80"
+      "sell": "12,00"
     },
     {
       "code": "DKK",
@@ -52,32 +52,32 @@
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "370.0",
-      "sell": "338.0"
+      "buy": "368.0",
+      "sell": "336.0"
     },
     {
       "code": "RON",
       "name": "Rumunijos lėja",
       "buy": "5.490",
-      "sell": "4.910"
+      "sell": "4.920"
     },
     {
       "code": "JPY",
       "name": "Japonijos jena",
-      "buy": "188.0",
+      "buy": "189,0",
       "sell": "173.0"
     },
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.676",
-      "sell": "1.593"
+      "buy": "1.678",
+      "sell": "1.595"
     },
     {
       "code": "AUD",
       "name": "Australijos doleris",
       "buy": "1.714",
-      "sell": "1.617"
+      "sell": "1.616"
     },
     {
       "code": "TRY",
@@ -106,7 +106,7 @@
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,04",
+      "buy": "4,05",
       "sell": "3,430"
     },
     {
@@ -118,8 +118,8 @@
     {
       "code": "THB",
       "name": "Tailando batas",
-      "buy": "41,70",
-      "sell": "34,50"
+      "buy": "41,90",
+      "sell": "34,70"
     },
     {
       "code": "AED",
