@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-13 14:33",
+  "updated": "2026-07-15 08:56",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.168",
+      "buy": "1.169",
       "sell": "1.115"
     },
     {
@@ -16,14 +16,14 @@
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
-      "buy": "0.950",
+      "buy": "0.951",
       "sell": "0.909"
     },
     {
       "code": "PLN",
       "name": "Lenkijos zlotas",
       "buy": "4.340",
-      "sell": "4.220"
+      "sell": "4.210"
     },
     {
       "code": "NOK",
@@ -52,38 +52,38 @@
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "371.0",
-      "sell": "338.0"
+      "buy": "373.0",
+      "sell": "340.0"
     },
     {
       "code": "RON",
       "name": "Rumunijos lėja",
       "buy": "5.500",
-      "sell": "4.920"
+      "sell": "4.930"
     },
     {
       "code": "JPY",
       "name": "Japonijos jena",
-      "buy": "188,0",
+      "buy": "189,0",
       "sell": "173.0"
     },
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.667",
-      "sell": "1.584"
+      "buy": "1.658",
+      "sell": "1.576"
     },
     {
       "code": "AUD",
       "name": "Australijos doleris",
-      "buy": "1.712",
-      "sell": "1.615"
+      "buy": "1.703",
+      "sell": "1.606"
     },
     {
       "code": "TRY",
       "name": "Turkijos lira",
-      "buy": "53,90",
-      "sell": "48.80"
+      "buy": "54,10",
+      "sell": "49,00"
     },
     {
       "code": "UAH",
@@ -94,20 +94,20 @@
     {
       "code": "GEL",
       "name": "Gruzijos laris",
-      "buy": "3.020",
-      "sell": "2.79"
+      "buy": "3.030",
+      "sell": "2.80"
     },
     {
       "code": "SCP",
       "name": "Škotijos svaras sterlingų",
-      "buy": "0,907",
-      "sell": "0,851"
+      "buy": "0,908",
+      "sell": "0,852"
     },
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,09",
-      "sell": "3,46"
+      "buy": "4,04",
+      "sell": "3,42"
     },
     {
       "code": "CNY",
@@ -118,8 +118,8 @@
     {
       "code": "THB",
       "name": "Tailando batas",
-      "buy": "4,200",
-      "sell": "34,70"
+      "buy": "4,220",
+      "sell": "34,90"
     },
     {
       "code": "AED",
