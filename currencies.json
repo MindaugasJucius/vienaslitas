@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-20 09:31",
+  "updated": "2026-07-21 08:49",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.169",
-      "sell": "1.116"
+      "buy": "1.167",
+      "sell": "1.113"
     },
     {
       "code": "GBP",
@@ -16,8 +16,8 @@
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
-      "buy": "0.950",
-      "sell": "0.907"
+      "buy": "0.951",
+      "sell": "0.908"
     },
     {
       "code": "PLN",
@@ -47,43 +47,43 @@
       "code": "CZK",
       "name": "Čekijos krona",
       "buy": "24.90",
-      "sell": "23.40"
+      "sell": "23.30"
     },
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "377.0",
+      "buy": "376.0",
       "sell": "346.0"
     },
     {
       "code": "RON",
       "name": "Rumunijos lėja",
       "buy": "5.500",
-      "sell": "4.920"
+      "sell": "4.930"
     },
     {
       "code": "JPY",
       "name": "Japonijos jena",
       "buy": "189,0",
-      "sell": "174.0"
+      "sell": "173.0"
     },
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.654",
-      "sell": "1.572"
+      "buy": "1.658",
+      "sell": "1.574"
     },
     {
       "code": "AUD",
       "name": "Australijos doleris",
-      "buy": "1.701",
-      "sell": "1.604"
+      "buy": "1.695",
+      "sell": "1.598"
     },
     {
       "code": "TRY",
       "name": "Turkijos lira",
       "buy": "54,20",
-      "sell": "49,10"
+      "sell": "49,00"
     },
     {
       "code": "UAH",
@@ -94,8 +94,8 @@
     {
       "code": "GEL",
       "name": "Gruzijos laris",
-      "buy": "3.030",
-      "sell": "2.800"
+      "buy": "3.020",
+      "sell": "2.790"
     },
     {
       "code": "SCP",
@@ -118,14 +118,14 @@
     {
       "code": "THB",
       "name": "Tailando batas",
-      "buy": "42,40",
-      "sell": "35,00"
+      "buy": "42,20",
+      "sell": "34,90"
     },
     {
       "code": "AED",
       "name": "JAE Dirhamas",
-      "buy": "4,50",
-      "sell": "3,99"
+      "buy": "4,49",
+      "sell": "3,98"
     },
     {
       "code": "BYN",
