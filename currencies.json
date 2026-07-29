@@ -1,17 +1,17 @@
 {
-  "updated": "2026-07-28 09:12",
+  "updated": "2026-07-29 10:32",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
       "buy": "1.162",
-      "sell": "1.109"
+      "sell": "1.112"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.881",
-      "sell": "0.845"
+      "buy": "0.882",
+      "sell": "0.846"
     },
     {
       "code": "CHF",
@@ -52,8 +52,8 @@
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "374.0",
-      "sell": "344.0"
+      "buy": "375.0",
+      "sell": "345.0"
     },
     {
       "code": "RON",
@@ -76,14 +76,14 @@
     {
       "code": "AUD",
       "name": "Australijos doleris",
-      "buy": "1.696",
-      "sell": "1,599"
+      "buy": "1.704",
+      "sell": "1,607"
     },
     {
       "code": "TRY",
       "name": "Turkijos lira",
-      "buy": "54,20",
-      "sell": "49,00"
+      "buy": "54,30",
+      "sell": "49,10"
     },
     {
       "code": "UAH",
@@ -94,20 +94,20 @@
     {
       "code": "GEL",
       "name": "Gruzijos laris",
-      "buy": "3.00",
-      "sell": "2.770"
+      "buy": "3.01",
+      "sell": "2.780"
     },
     {
       "code": "SCP",
       "name": "Škotijos svaras sterlingų",
-      "buy": "0,911",
-      "sell": "0,854"
+      "buy": "0,912",
+      "sell": "0,856"
     },
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,1",
-      "sell": "3,47"
+      "buy": "4,11",
+      "sell": "3,48"
     },
     {
       "code": "CNY",
@@ -118,14 +118,14 @@
     {
       "code": "THB",
       "name": "Tailando batas",
-      "buy": "42,10",
-      "sell": "34,80"
+      "buy": "42,00",
+      "sell": "34,70"
     },
     {
       "code": "AED",
       "name": "JAE Dirhamas",
-      "buy": "4,47",
-      "sell": "3,97"
+      "buy": "4,48",
+      "sell": "3,98"
     },
     {
       "code": "BYN",
@@ -136,7 +136,7 @@
     {
       "code": "ISK",
       "name": "Islandijos krona",
-      "buy": "166",
+      "buy": "165",
       "sell": "137"
     },
     {
