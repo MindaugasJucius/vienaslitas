@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-07 10:45",
+  "updated": "2026-08-07 13:06",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
       "buy": "1.181",
-      "sell": "1.123"
+      "sell": "1.124"
     },
     {
       "code": "GBP",
@@ -28,8 +28,8 @@
     {
       "code": "NOK",
       "name": "Norvegijos krona",
-      "buy": "13,70",
-      "sell": "13,20"
+      "buy": "13,60",
+      "sell": "13,00"
     },
     {
       "code": "SEK",
