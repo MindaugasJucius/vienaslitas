@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25 08:50",
+  "updated": "2026-08-25 12:28",
   "currencies": [
     {
       "code": "USD",
@@ -34,8 +34,8 @@
     {
       "code": "SEK",
       "name": "Švedijos krona",
-      "buy": "12,20",
-      "sell": "11,50"
+      "buy": "11,90",
+      "sell": "11,40"
     },
     {
       "code": "DKK",
