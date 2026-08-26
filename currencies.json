@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-25 12:28",
+  "updated": "2026-08-26 08:56",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
       "buy": "1.195",
-      "sell": "1.136"
+      "sell": "1.137"
     },
     {
       "code": "GBP",
@@ -23,24 +23,24 @@
       "code": "PLN",
       "name": "Lenkijos zlotas",
       "buy": "4.320",
-      "sell": "4.220"
+      "sell": "4.230"
     },
     {
       "code": "NOK",
       "name": "Norvegijos krona",
-      "buy": "13,70",
+      "buy": "13,60",
       "sell": "13,10"
     },
     {
       "code": "SEK",
       "name": "Švedijos krona",
-      "buy": "11,90",
-      "sell": "11,40"
+      "buy": "12,00",
+      "sell": "11,50"
     },
     {
       "code": "DKK",
       "name": "Danijos krona",
-      "buy": "8.250",
+      "buy": "8.200",
       "sell": "7.800"
     },
     {
@@ -52,8 +52,8 @@
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "377.0",
-      "sell": "346.0"
+      "buy": "375.0",
+      "sell": "344.0"
     },
     {
       "code": "RON",
@@ -65,25 +65,25 @@
       "code": "JPY",
       "name": "Japonijos jena",
       "buy": "189,0",
-      "sell": "174.0"
+      "sell": "173.0"
     },
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.667",
-      "sell": "1.585"
+      "buy": "1.669",
+      "sell": "1.586"
     },
     {
       "code": "AUD",
       "name": "Australijos doleris",
-      "buy": "1.696",
-      "sell": "1,599"
+      "buy": "1.690",
+      "sell": "1,586"
     },
     {
       "code": "TRY",
       "name": "Turkijos lira",
-      "buy": "56,30",
-      "sell": "51,00"
+      "buy": "56,40",
+      "sell": "51,10"
     },
     {
       "code": "UAH",
@@ -95,7 +95,7 @@
       "code": "GEL",
       "name": "Gruzijos laris",
       "buy": "3.06",
-      "sell": "2.82"
+      "sell": "2.83"
     },
     {
       "code": "SCP",
@@ -106,8 +106,8 @@
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,14",
-      "sell": "3,50"
+      "buy": "4,10",
+      "sell": "3,47"
     },
     {
       "code": "CNY",
@@ -136,7 +136,7 @@
     {
       "code": "ISK",
       "name": "Islandijos krona",
-      "buy": "197",
+      "buy": "198",
       "sell": "141"
     },
     {
