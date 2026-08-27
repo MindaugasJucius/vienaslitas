@@ -1,35 +1,35 @@
 {
-  "updated": "2026-08-26 08:56",
+  "updated": "2026-08-27 09:49",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.195",
-      "sell": "1.137"
+      "buy": "1.194",
+      "sell": "1.136"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.881",
-      "sell": "0.845"
+      "buy": "0.883",
+      "sell": "0.847"
     },
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
-      "buy": "0.962",
-      "sell": "0.920"
+      "buy": "0.964",
+      "sell": "0.922"
     },
     {
       "code": "PLN",
       "name": "Lenkijos zlotas",
-      "buy": "4.320",
-      "sell": "4.230"
+      "buy": "4.330",
+      "sell": "4.240"
     },
     {
       "code": "NOK",
       "name": "Norvegijos krona",
-      "buy": "13,60",
-      "sell": "13,10"
+      "buy": "13,50",
+      "sell": "13,00"
     },
     {
       "code": "SEK",
@@ -47,43 +47,43 @@
       "code": "CZK",
       "name": "Čekijos krona",
       "buy": "24.80",
-      "sell": "23.20"
+      "sell": "23.30"
     },
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "375.0",
-      "sell": "344.0"
+      "buy": "376.0",
+      "sell": "345.0"
     },
     {
       "code": "RON",
       "name": "Rumunijos lėja",
-      "buy": "5.51",
+      "buy": "5.52",
       "sell": "4.940"
     },
     {
       "code": "JPY",
       "name": "Japonijos jena",
       "buy": "189,0",
-      "sell": "173.0"
+      "sell": "174.0"
     },
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.669",
-      "sell": "1.586"
+      "buy": "1.67",
+      "sell": "1.587"
     },
     {
       "code": "AUD",
       "name": "Australijos doleris",
-      "buy": "1.690",
-      "sell": "1,586"
+      "buy": "1.687",
+      "sell": "1,592"
     },
     {
       "code": "TRY",
       "name": "Turkijos lira",
       "buy": "56,40",
-      "sell": "51,10"
+      "sell": "51,00"
     },
     {
       "code": "UAH",
@@ -95,7 +95,7 @@
       "code": "GEL",
       "name": "Gruzijos laris",
       "buy": "3.06",
-      "sell": "2.83"
+      "sell": "2.82"
     },
     {
       "code": "SCP",
@@ -106,8 +106,8 @@
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,10",
-      "sell": "3,47"
+      "buy": "4,08",
+      "sell": "3,46"
     },
     {
       "code": "CNY",
@@ -118,7 +118,7 @@
     {
       "code": "THB",
       "name": "Tailando batas",
-      "buy": "42,00",
+      "buy": "42,10",
       "sell": "34,80"
     },
     {
@@ -136,8 +136,8 @@
     {
       "code": "ISK",
       "name": "Islandijos krona",
-      "buy": "198",
-      "sell": "141"
+      "buy": "202",
+      "sell": "148"
     },
     {
       "code": "RUB",
