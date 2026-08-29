@@ -1,23 +1,23 @@
 {
-  "updated": "2026-08-28 09:13",
+  "updated": "2026-08-29 09:11",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.194",
-      "sell": "1.135"
+      "buy": "1.187",
+      "sell": "1.129"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.883",
-      "sell": "0.847"
+      "buy": "0.882",
+      "sell": "0.846"
     },
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
       "buy": "0.963",
-      "sell": "0.922"
+      "sell": "0.921"
     },
     {
       "code": "PLN",
@@ -65,25 +65,25 @@
       "code": "JPY",
       "name": "Japonijos jena",
       "buy": "189,0",
-      "sell": "174.0"
+      "sell": "173.0"
     },
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.665",
-      "sell": "1.582"
+      "buy": "1.662",
+      "sell": "1.580"
     },
     {
       "code": "AUD",
       "name": "Australijos doleris",
-      "buy": "1.683",
+      "buy": "1.682",
       "sell": "1,587"
     },
     {
       "code": "TRY",
       "name": "Turkijos lira",
-      "buy": "56,50",
-      "sell": "51,10"
+      "buy": "56,20",
+      "sell": "50,80"
     },
     {
       "code": "UAH",
@@ -94,20 +94,20 @@
     {
       "code": "GEL",
       "name": "Gruzijos laris",
-      "buy": "3.06",
-      "sell": "2.82"
+      "buy": "3.04",
+      "sell": "2.81"
     },
     {
       "code": "SCP",
       "name": "Škotijos svaras sterlingų",
-      "buy": "0,913",
-      "sell": "0,856"
+      "buy": "0,912",
+      "sell": "0,855"
     },
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,07",
-      "sell": "3,45"
+      "buy": "4,09",
+      "sell": "3,46"
     },
     {
       "code": "CNY",
@@ -118,19 +118,19 @@
     {
       "code": "THB",
       "name": "Tailando batas",
-      "buy": "42,30",
+      "buy": "42,20",
       "sell": "35,00"
     },
     {
       "code": "AED",
       "name": "JAE Dirhamas",
-      "buy": "4,58",
-      "sell": "4,06"
+      "buy": "4,55",
+      "sell": "4,04"
     },
     {
       "code": "BYN",
       "name": "Baltarusijos rublis",
-      "buy": "3,42",
+      "buy": "3,44",
       "sell": "3,20"
     },
     {
@@ -142,8 +142,8 @@
     {
       "code": "RUB",
       "name": "Rusijos rublis",
-      "buy": "100,0",
-      "sell": "92,00"
+      "buy": "101,0",
+      "sell": "93,00"
     }
   ]
 }
