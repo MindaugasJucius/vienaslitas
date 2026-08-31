@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-29 09:11",
+  "updated": "2026-08-31 08:50",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.187",
-      "sell": "1.129"
+      "buy": "1.188",
+      "sell": "1.130"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.882",
+      "buy": "0.881",
       "sell": "0.846"
     },
     {
@@ -22,8 +22,8 @@
     {
       "code": "PLN",
       "name": "Lenkijos zlotas",
-      "buy": "4.350",
-      "sell": "4.250"
+      "buy": "4.360",
+      "sell": "4.260"
     },
     {
       "code": "NOK",
@@ -83,7 +83,7 @@
       "code": "TRY",
       "name": "Turkijos lira",
       "buy": "56,20",
-      "sell": "50,80"
+      "sell": "50,90"
     },
     {
       "code": "UAH",
@@ -100,7 +100,7 @@
     {
       "code": "SCP",
       "name": "Škotijos svaras sterlingų",
-      "buy": "0,912",
+      "buy": "0,911",
       "sell": "0,855"
     },
     {
@@ -118,7 +118,7 @@
     {
       "code": "THB",
       "name": "Tailando batas",
-      "buy": "42,20",
+      "buy": "42,30",
       "sell": "35,00"
     },
     {
