@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-02 08:43",
+  "updated": "2026-09-02 10:35",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.186",
+      "buy": "1.185",
       "sell": "1.129"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.882",
+      "buy": "0.881",
       "sell": "0.847"
     },
     {
