@@ -1,23 +1,23 @@
 {
-  "updated": "2026-09-03 08:34",
+  "updated": "2026-09-03 11:12",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.188",
-      "sell": "1.131"
+      "buy": "1.189",
+      "sell": "1.132"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.884",
-      "sell": "0.849"
+      "buy": "0.885",
+      "sell": "0.850"
     },
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
-      "buy": "0.967",
-      "sell": "0.925"
+      "buy": "0.965",
+      "sell": "0.923"
     },
     {
       "code": "PLN",
@@ -34,7 +34,7 @@
     {
       "code": "SEK",
       "name": "Švedijos krona",
-      "buy": "11,90",
+      "buy": "11,85",
       "sell": "11,40"
     },
     {
@@ -64,8 +64,8 @@
     {
       "code": "JPY",
       "name": "Japonijos jena",
-      "buy": "187,0",
-      "sell": "171.0"
+      "buy": "186,0",
+      "sell": "170.0"
     },
     {
       "code": "CAD",
@@ -100,7 +100,7 @@
     {
       "code": "SCP",
       "name": "Škotijos svaras sterlingų",
-      "buy": "0,915",
+      "buy": "0,916",
       "sell": "0,859"
     },
     {
@@ -143,7 +143,7 @@
       "code": "RUB",
       "name": "Rusijos rublis",
       "buy": "102,0",
-      "sell": "93,00"
+      "sell": "94,00"
     }
   ]
 }
