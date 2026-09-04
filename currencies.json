@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04 08:50",
+  "updated": "2026-09-04 12:16",
   "currencies": [
     {
       "code": "USD",
@@ -17,7 +17,7 @@
       "code": "CHF",
       "name": "Šveicarijos frankas",
       "buy": "0.965",
-      "sell": "0.922"
+      "sell": "0.923"
     },
     {
       "code": "PLN",
@@ -28,8 +28,8 @@
     {
       "code": "NOK",
       "name": "Norvegijos krona",
-      "buy": "13,40",
-      "sell": "12,80"
+      "buy": "13,30",
+      "sell": "12,70"
     },
     {
       "code": "SEK",
@@ -100,7 +100,7 @@
     {
       "code": "SCP",
       "name": "Škotijos svaras sterlingų",
-      "buy": "0,915",
+      "buy": "0,914",
       "sell": "0,858"
     },
     {
