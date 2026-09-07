@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05 09:35",
+  "updated": "2026-09-07 08:53",
   "currencies": [
     {
       "code": "USD",
@@ -65,19 +65,19 @@
       "code": "JPY",
       "name": "Japonijos jena",
       "buy": "185.0",
-      "sell": "170.0"
+      "sell": "169.0"
     },
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.659",
-      "sell": "1.577"
+      "buy": "1.658",
+      "sell": "1.576"
     },
     {
       "code": "AUD",
       "name": "Australijos doleris",
-      "buy": "1.677",
-      "sell": "1,582"
+      "buy": "1.676",
+      "sell": "1,581"
     },
     {
       "code": "TRY",
@@ -106,7 +106,7 @@
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,12",
+      "buy": "4,13",
       "sell": "3,50"
     },
     {
