@@ -1,34 +1,34 @@
 {
-  "updated": "2026-09-08 08:35",
+  "updated": "2026-09-08 15:53",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.191",
+      "buy": "1.190",
       "sell": "1.133"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.884",
-      "sell": "0.849"
+      "buy": "0.883",
+      "sell": "0.848"
     },
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
-      "buy": "0.966",
-      "sell": "0.924"
+      "buy": "0.968",
+      "sell": "0.926"
     },
     {
       "code": "PLN",
       "name": "Lenkijos zlotas",
-      "buy": "4.320",
-      "sell": "4.230"
+      "buy": "4.340",
+      "sell": "4.260"
     },
     {
       "code": "NOK",
       "name": "Norvegijos krona",
-      "buy": "13,30",
+      "buy": "13,40",
       "sell": "12,80"
     },
     {
@@ -40,7 +40,7 @@
     {
       "code": "DKK",
       "name": "Danijos krona",
-      "buy": "8.200",
+      "buy": "8.100",
       "sell": "7.800"
     },
     {
@@ -53,7 +53,7 @@
       "code": "HUF",
       "name": "Vengrijos forintas",
       "buy": "378.0",
-      "sell": "347.0"
+      "sell": "348.0"
     },
     {
       "code": "RON",
@@ -94,8 +94,8 @@
     {
       "code": "GEL",
       "name": "Gruzijos laris",
-      "buy": "3.05",
-      "sell": "2.82"
+      "buy": "3.04",
+      "sell": "2.81"
     },
     {
       "code": "SCP",
@@ -124,8 +124,8 @@
     {
       "code": "AED",
       "name": "JAE Dirhamas",
-      "buy": "4,57",
-      "sell": "4,06"
+      "buy": "4,56",
+      "sell": "4,05"
     },
     {
       "code": "BYN",
