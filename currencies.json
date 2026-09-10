@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-09 08:51",
+  "updated": "2026-09-10 09:20",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.191",
-      "sell": "1.134"
+      "buy": "1.193",
+      "sell": "1.135"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.883",
+      "buy": "0.884",
       "sell": "0.848"
     },
     {
@@ -28,8 +28,8 @@
     {
       "code": "NOK",
       "name": "Norvegijos krona",
-      "buy": "13,40",
-      "sell": "13,00"
+      "buy": "13,35",
+      "sell": "12,80"
     },
     {
       "code": "SEK",
@@ -46,19 +46,19 @@
     {
       "code": "CZK",
       "name": "Čekijos krona",
-      "buy": "24.80",
-      "sell": "23.30"
+      "buy": "24.90",
+      "sell": "23.40"
     },
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "378.0",
-      "sell": "347.0"
+      "buy": "379.0",
+      "sell": "348.0"
     },
     {
       "code": "RON",
       "name": "Rumunijos lėja",
-      "buy": "5.51",
+      "buy": "5.52",
       "sell": "4.940"
     },
     {
@@ -70,20 +70,20 @@
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.653",
-      "sell": "1.572"
+      "buy": "1.658",
+      "sell": "1.576"
     },
     {
       "code": "AUD",
       "name": "Australijos doleris",
-      "buy": "1.674",
-      "sell": "1,579"
+      "buy": "1.677",
+      "sell": "1,582"
     },
     {
       "code": "TRY",
       "name": "Turkijos lira",
       "buy": "56,70",
-      "sell": "51,30"
+      "sell": "51,40"
     },
     {
       "code": "UAH",
@@ -106,8 +106,8 @@
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,14",
-      "sell": "3,51"
+      "buy": "4,15",
+      "sell": "3,52"
     },
     {
       "code": "CNY",
@@ -118,8 +118,8 @@
     {
       "code": "THB",
       "name": "Tailando batas",
-      "buy": "42,10",
-      "sell": "34,80"
+      "buy": "42,20",
+      "sell": "34,90"
     },
     {
       "code": "AED",
@@ -142,7 +142,7 @@
     {
       "code": "RUB",
       "name": "Rusijos rublis",
-      "buy": "102,0",
+      "buy": "101,0",
       "sell": "95,00"
     }
   ]
