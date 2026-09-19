@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18 09:08",
+  "updated": "2026-09-19 09:56",
   "currencies": [
     {
       "code": "USD",
@@ -10,14 +10,14 @@
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.884",
-      "sell": "0.849"
+      "buy": "0.883",
+      "sell": "0.847"
     },
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
-      "buy": "0.971",
-      "sell": "0.928"
+      "buy": "0.970",
+      "sell": "0.927"
     },
     {
       "code": "PLN",
@@ -52,32 +52,32 @@
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "377.0",
-      "sell": "346.0"
+      "buy": "379.0",
+      "sell": "348.0"
     },
     {
       "code": "RON",
       "name": "Rumunijos lėja",
-      "buy": "5.52",
+      "buy": "5.53",
       "sell": "4.950"
     },
     {
       "code": "JPY",
       "name": "Japonijos jena",
       "buy": "184.0",
-      "sell": "169,0"
+      "sell": "168,0"
     },
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.657",
+      "buy": "1.658",
       "sell": "1.576"
     },
     {
       "code": "AUD",
       "name": "Australijos doleris",
       "buy": "1.676",
-      "sell": "1,581"
+      "sell": "1,582"
     },
     {
       "code": "TRY",
@@ -88,7 +88,7 @@
     {
       "code": "UAH",
       "name": "Ukrainos grivina",
-      "buy": "53.00",
+      "buy": "54.00",
       "sell": "51.00"
     },
     {
@@ -100,8 +100,8 @@
     {
       "code": "SCP",
       "name": "Škotijos svaras sterlingų",
-      "buy": "0,915",
-      "sell": "0,858"
+      "buy": "0,913",
+      "sell": "0,857"
     },
     {
       "code": "ILS",
@@ -118,7 +118,7 @@
     {
       "code": "THB",
       "name": "Tailando batas",
-      "buy": "42,00",
+      "buy": "42,10",
       "sell": "34,80"
     },
     {
