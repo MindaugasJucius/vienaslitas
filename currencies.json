@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-19 09:56",
+  "updated": "2026-09-21 09:15",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.177",
-      "sell": "1.120"
+      "buy": "1.176",
+      "sell": "1.119"
     },
     {
       "code": "GBP",
@@ -28,32 +28,32 @@
     {
       "code": "NOK",
       "name": "Norvegijos krona",
-      "buy": "13,30",
-      "sell": "12,80"
+      "buy": "13,25",
+      "sell": "12,70"
     },
     {
       "code": "SEK",
       "name": "Švedijos krona",
-      "buy": "12,10",
+      "buy": "12,20",
       "sell": "11,50"
     },
     {
       "code": "DKK",
       "name": "Danijos krona",
-      "buy": "8.100",
+      "buy": "8.150",
       "sell": "7.800"
     },
     {
       "code": "CZK",
       "name": "Čekijos krona",
-      "buy": "24,90",
+      "buy": "25,00",
       "sell": "23.50"
     },
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "379.0",
-      "sell": "348.0"
+      "buy": "378.0",
+      "sell": "347.0"
     },
     {
       "code": "RON",
@@ -76,8 +76,8 @@
     {
       "code": "AUD",
       "name": "Australijos doleris",
-      "buy": "1.676",
-      "sell": "1,582"
+      "buy": "1.675",
+      "sell": "1,580"
     },
     {
       "code": "TRY",
@@ -106,26 +106,26 @@
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,10",
+      "buy": "4,11",
       "sell": "3,48"
     },
     {
       "code": "CNY",
       "name": "Kinijos ženminbi juanis",
-      "buy": "8,18",
+      "buy": "8,19",
       "sell": "7,30"
     },
     {
       "code": "THB",
       "name": "Tailando batas",
-      "buy": "42,10",
+      "buy": "42,00",
       "sell": "34,80"
     },
     {
       "code": "AED",
       "name": "JAE Dirhamas",
       "buy": "4,51",
-      "sell": "4,01"
+      "sell": "4,00"
     },
     {
       "code": "BYN",
@@ -137,7 +137,7 @@
       "code": "ISK",
       "name": "Islandijos krona",
       "buy": "000",
-      "sell": "147"
+      "sell": "146"
     },
     {
       "code": "RUB",
