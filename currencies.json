@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-21 09:15",
+  "updated": "2026-09-22 09:44",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.176",
-      "sell": "1.119"
+      "buy": "1.175",
+      "sell": "1.118"
     },
     {
       "code": "GBP",
@@ -16,19 +16,19 @@
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
-      "buy": "0.970",
-      "sell": "0.927"
+      "buy": "0.967",
+      "sell": "0.924"
     },
     {
       "code": "PLN",
       "name": "Lenkijos zlotas",
       "buy": "4.370",
-      "sell": "4.280"
+      "sell": "4.260"
     },
     {
       "code": "NOK",
       "name": "Norvegijos krona",
-      "buy": "13,25",
+      "buy": "13,20",
       "sell": "12,70"
     },
     {
@@ -52,8 +52,8 @@
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "378.0",
-      "sell": "347.0"
+      "buy": "376.0",
+      "sell": "345.0"
     },
     {
       "code": "RON",
@@ -65,13 +65,13 @@
       "code": "JPY",
       "name": "Japonijos jena",
       "buy": "184.0",
-      "sell": "168,0"
+      "sell": "169,0"
     },
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.658",
-      "sell": "1.576"
+      "buy": "1.661",
+      "sell": "1.579"
     },
     {
       "code": "AUD",
@@ -83,7 +83,7 @@
       "code": "TRY",
       "name": "Turkijos lira",
       "buy": "56,30",
-      "sell": "51,00"
+      "sell": "50,90"
     },
     {
       "code": "UAH",
@@ -94,8 +94,8 @@
     {
       "code": "GEL",
       "name": "Gruzijos laris",
-      "buy": "3.01",
-      "sell": "2.78"
+      "buy": "3.00",
+      "sell": "2.77"
     },
     {
       "code": "SCP",
@@ -106,8 +106,8 @@
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,11",
-      "sell": "3,48"
+      "buy": "4,08",
+      "sell": "3,45"
     },
     {
       "code": "CNY",
@@ -119,7 +119,7 @@
       "code": "THB",
       "name": "Tailando batas",
       "buy": "42,00",
-      "sell": "34,80"
+      "sell": "34,70"
     },
     {
       "code": "AED",
@@ -136,7 +136,7 @@
     {
       "code": "ISK",
       "name": "Islandijos krona",
-      "buy": "000",
+      "buy": "240",
       "sell": "146"
     },
     {
