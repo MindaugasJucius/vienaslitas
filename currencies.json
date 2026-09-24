@@ -1,29 +1,29 @@
 {
-  "updated": "2026-09-24 09:33",
+  "updated": "2026-09-24 12:13",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
       "buy": "1.167",
-      "sell": "1.110"
+      "sell": "1.111"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
       "buy": "0.885",
-      "sell": "0.849"
+      "sell": "0.850"
     },
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
-      "buy": "0.964",
-      "sell": "0.921"
+      "buy": "0.969",
+      "sell": "0.925"
     },
     {
       "code": "PLN",
       "name": "Lenkijos zlotas",
-      "buy": "4.39",
-      "sell": "4.30"
+      "buy": "4.40",
+      "sell": "4.31"
     },
     {
       "code": "NOK",
@@ -40,7 +40,7 @@
     {
       "code": "DKK",
       "name": "Danijos krona",
-      "buy": "8.150",
+      "buy": "8.100",
       "sell": "7.800"
     },
     {
