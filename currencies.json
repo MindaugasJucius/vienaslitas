@@ -1,17 +1,17 @@
 {
-  "updated": "2026-09-29 09:04",
+  "updated": "2026-09-29 14:04",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.164",
-      "sell": "1.108"
+      "buy": "1.162",
+      "sell": "1.105"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.884",
-      "sell": "0.848"
+      "buy": "0.883",
+      "sell": "0.847"
     },
     {
       "code": "CHF",
@@ -40,7 +40,7 @@
     {
       "code": "DKK",
       "name": "Danijos krona",
-      "buy": "8.100",
+      "buy": "8.200",
       "sell": "7.800"
     },
     {
@@ -64,7 +64,7 @@
     {
       "code": "JPY",
       "name": "Japonijos jena",
-      "buy": "183.0",
+      "buy": "182.0",
       "sell": "167,0"
     },
     {
@@ -82,8 +82,8 @@
     {
       "code": "TRY",
       "name": "Turkijos lira",
-      "buy": "55,90",
-      "sell": "50,70"
+      "buy": "55,80",
+      "sell": "50,60"
     },
     {
       "code": "UAH",
@@ -95,7 +95,7 @@
       "code": "GEL",
       "name": "Gruzijos laris",
       "buy": "2,97",
-      "sell": "2.75"
+      "sell": "2.74"
     },
     {
       "code": "SCP",
@@ -106,7 +106,7 @@
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,13",
+      "buy": "4,11",
       "sell": "3,50"
     },
     {
@@ -118,8 +118,8 @@
     {
       "code": "THB",
       "name": "Tailando batas",
-      "buy": "42,00",
-      "sell": "34,80"
+      "buy": "41,90",
+      "sell": "34,70"
     },
     {
       "code": "AED",
@@ -143,7 +143,7 @@
       "code": "RUB",
       "name": "Rusijos rublis",
       "buy": "100,0",
-      "sell": "94,00"
+      "sell": "95,00"
     }
   ]
 }
