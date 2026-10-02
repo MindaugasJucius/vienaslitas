@@ -1,23 +1,23 @@
 {
-  "updated": "2026-10-01 09:02",
+  "updated": "2026-10-02 08:48",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.160",
-      "sell": "1.103"
+      "buy": "1.153",
+      "sell": "1.097"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.880",
-      "sell": "0.844"
+      "buy": "0.877",
+      "sell": "0.842"
     },
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
-      "buy": "0.973",
-      "sell": "0.930"
+      "buy": "0.959",
+      "sell": "0.916"
     },
     {
       "code": "PLN",
@@ -28,7 +28,7 @@
     {
       "code": "NOK",
       "name": "Norvegijos krona",
-      "buy": "13,10",
+      "buy": "13,15",
       "sell": "12,60"
     },
     {
@@ -52,38 +52,38 @@
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "381.0",
-      "sell": "350.0"
+      "buy": "384.0",
+      "sell": "353.0"
     },
     {
       "code": "RON",
       "name": "Rumunijos lėja",
-      "buy": "5.54",
-      "sell": "4.960"
+      "buy": "5.61",
+      "sell": "5,02"
     },
     {
       "code": "JPY",
       "name": "Japonijos jena",
-      "buy": "183.0",
-      "sell": "168,0"
+      "buy": "181.0",
+      "sell": "166,0"
     },
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.664",
-      "sell": "1.582"
+      "buy": "1.651",
+      "sell": "1.569"
     },
     {
       "code": "AUD",
       "name": "Australijos doleris",
-      "buy": "1.695",
-      "sell": "1,599"
+      "buy": "1.687",
+      "sell": "1,592"
     },
     {
       "code": "TRY",
       "name": "Turkijos lira",
-      "buy": "55,80",
-      "sell": "50,50"
+      "buy": "55,60",
+      "sell": "50,30"
     },
     {
       "code": "UAH",
@@ -94,19 +94,19 @@
     {
       "code": "GEL",
       "name": "Gruzijos laris",
-      "buy": "2,96",
-      "sell": "2.73"
+      "buy": "2,94",
+      "sell": "2.72"
     },
     {
       "code": "SCP",
       "name": "Škotijos svaras sterlingų",
-      "buy": "0,910",
-      "sell": "0,854"
+      "buy": "0,907",
+      "sell": "0,851"
     },
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,10",
+      "buy": "4,09",
       "sell": "3,50"
     },
     {
@@ -118,14 +118,14 @@
     {
       "code": "THB",
       "name": "Tailando batas",
-      "buy": "41,80",
-      "sell": "34,60"
+      "buy": "41,60",
+      "sell": "34,40"
     },
     {
       "code": "AED",
       "name": "JAE Dirhamas",
-      "buy": "4,45",
-      "sell": "3,95"
+      "buy": "4,42",
+      "sell": "3,93"
     },
     {
       "code": "BYN",
