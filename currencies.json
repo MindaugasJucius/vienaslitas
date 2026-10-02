@@ -1,23 +1,23 @@
 {
-  "updated": "2026-10-02 08:48",
+  "updated": "2026-10-02 14:03",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.153",
-      "sell": "1.097"
+      "buy": "1.152",
+      "sell": "1.096"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
       "buy": "0.877",
-      "sell": "0.842"
+      "sell": "0.841"
     },
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
-      "buy": "0.959",
-      "sell": "0.916"
+      "buy": "0.957",
+      "sell": "0.914"
     },
     {
       "code": "PLN",
@@ -34,7 +34,7 @@
     {
       "code": "SEK",
       "name": "Švedijos krona",
-      "buy": "12,20",
+      "buy": "12,30",
       "sell": "11,60"
     },
     {
@@ -52,8 +52,8 @@
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "384.0",
-      "sell": "353.0"
+      "buy": "383.0",
+      "sell": "352.0"
     },
     {
       "code": "RON",
@@ -82,7 +82,7 @@
     {
       "code": "TRY",
       "name": "Turkijos lira",
-      "buy": "55,60",
+      "buy": "55,50",
       "sell": "50,30"
     },
     {
@@ -118,14 +118,14 @@
     {
       "code": "THB",
       "name": "Tailando batas",
-      "buy": "41,60",
+      "buy": "41,50",
       "sell": "34,40"
     },
     {
       "code": "AED",
       "name": "JAE Dirhamas",
       "buy": "4,42",
-      "sell": "3,93"
+      "sell": "3,92"
     },
     {
       "code": "BYN",
