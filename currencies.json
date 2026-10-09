@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-08 09:12",
+  "updated": "2026-10-09 09:12",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.149",
-      "sell": "1.093"
+      "buy": "1.151",
+      "sell": "1.095"
     },
     {
       "code": "GBP",
@@ -17,7 +17,7 @@
       "code": "CHF",
       "name": "Šveicarijos frankas",
       "buy": "0.959",
-      "sell": "0.917"
+      "sell": "0.916"
     },
     {
       "code": "PLN",
@@ -28,13 +28,13 @@
     {
       "code": "NOK",
       "name": "Norvegijos krona",
-      "buy": "13,15",
+      "buy": "13,10",
       "sell": "12,50"
     },
     {
       "code": "SEK",
       "name": "Švedijos krona",
-      "buy": "12,30",
+      "buy": "12,20",
       "sell": "11,60"
     },
     {
@@ -52,14 +52,14 @@
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "381.0",
+      "buy": "380.0",
       "sell": "349.0"
     },
     {
       "code": "RON",
       "name": "Rumunijos lėja",
-      "buy": "5.62",
-      "sell": "5,03"
+      "buy": "5.61",
+      "sell": "5,02"
     },
     {
       "code": "JPY",
@@ -70,20 +70,20 @@
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.649",
+      "buy": "1.647",
       "sell": "1.567"
     },
     {
       "code": "AUD",
       "name": "Australijos doleris",
       "buy": "1.675",
-      "sell": "1,580"
+      "sell": "1,565"
     },
     {
       "code": "TRY",
       "name": "Turkijos lira",
-      "buy": "55,40",
-      "sell": "50,20"
+      "buy": "55,70",
+      "sell": "50,40"
     },
     {
       "code": "UAH",
@@ -94,8 +94,8 @@
     {
       "code": "GEL",
       "name": "Gruzijos laris",
-      "buy": "2,93",
-      "sell": "2.70"
+      "buy": "2,94",
+      "sell": "2.71"
     },
     {
       "code": "SCP",
@@ -106,7 +106,7 @@
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,06",
+      "buy": "4,05",
       "sell": "3,45"
     },
     {
