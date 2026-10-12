@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10 10:38",
+  "updated": "2026-10-12 09:46",
   "currencies": [
     {
       "code": "USD",
@@ -10,7 +10,7 @@
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.872",
+      "buy": "0.871",
       "sell": "0.836"
     },
     {
@@ -23,7 +23,7 @@
       "code": "PLN",
       "name": "Lenkijos zlotas",
       "buy": "4.41",
-      "sell": "4.31"
+      "sell": "4.32"
     },
     {
       "code": "NOK",
@@ -52,13 +52,13 @@
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "379.0",
-      "sell": "348.0"
+      "buy": "380.0",
+      "sell": "349.0"
     },
     {
       "code": "RON",
       "name": "Rumunijos lėja",
-      "buy": "5.61",
+      "buy": "5.60",
       "sell": "5,02"
     },
     {
@@ -70,20 +70,20 @@
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.648",
-      "sell": "1.566"
+      "buy": "1.670",
+      "sell": "1.568"
     },
     {
       "code": "AUD",
       "name": "Australijos doleris",
-      "buy": "1.675",
-      "sell": "1,565"
+      "buy": "1.677",
+      "sell": "1,575"
     },
     {
       "code": "TRY",
       "name": "Turkijos lira",
-      "buy": "55,50",
-      "sell": "50,20"
+      "buy": "55,60",
+      "sell": "50,30"
     },
     {
       "code": "UAH",
@@ -94,7 +94,7 @@
     {
       "code": "GEL",
       "name": "Gruzijos laris",
-      "buy": "2,92",
+      "buy": "2,93",
       "sell": "2.70"
     },
     {
@@ -124,7 +124,7 @@
     {
       "code": "AED",
       "name": "JAE Dirhamas",
-      "buy": "4,40",
+      "buy": "4,41",
       "sell": "3,91"
     },
     {
