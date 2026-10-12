@@ -1,17 +1,17 @@
 {
-  "updated": "2026-10-12 09:46",
+  "updated": "2026-10-12 14:11",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.148",
-      "sell": "1.092"
+      "buy": "1.146",
+      "sell": "1.090"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.871",
-      "sell": "0.836"
+      "buy": "0.870",
+      "sell": "0.835"
     },
     {
       "code": "CHF",
@@ -100,8 +100,8 @@
     {
       "code": "SCP",
       "name": "Škotijos svaras sterlingų",
-      "buy": "0,901",
-      "sell": "0,845"
+      "buy": "0,900",
+      "sell": "0,844"
     },
     {
       "code": "ILS",
@@ -143,7 +143,7 @@
       "code": "RUB",
       "name": "Rusijos rublis",
       "buy": "99,00",
-      "sell": "95,00"
+      "sell": "94,00"
     }
   ]
 }
