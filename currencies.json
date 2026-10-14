@@ -1,16 +1,16 @@
 {
-  "updated": "2026-10-14 09:04",
+  "updated": "2026-10-14 13:37",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.149",
-      "sell": "1.093"
+      "buy": "1.147",
+      "sell": "1.092"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.870",
+      "buy": "0.869",
       "sell": "0.834"
     },
     {
@@ -22,7 +22,7 @@
     {
       "code": "PLN",
       "name": "Lenkijos zlotas",
-      "buy": "4.40",
+      "buy": "4.39",
       "sell": "4.30"
     },
     {
@@ -118,14 +118,14 @@
     {
       "code": "THB",
       "name": "Tailando batas",
-      "buy": "41,40",
+      "buy": "41,30",
       "sell": "34,20"
     },
     {
       "code": "AED",
       "name": "JAE Dirhamas",
-      "buy": "4,41",
-      "sell": "3,91"
+      "buy": "4,40",
+      "sell": "3,99"
     },
     {
       "code": "BYN",
