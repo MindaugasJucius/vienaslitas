@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-16 09:24",
+  "updated": "2026-10-16 11:22",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
       "buy": "1.151",
-      "sell": "1.096"
+      "sell": "1.097"
     },
     {
       "code": "GBP",
@@ -22,7 +22,7 @@
     {
       "code": "PLN",
       "name": "Lenkijos zlotas",
-      "buy": "4.40",
+      "buy": "4.39",
       "sell": "4.30"
     },
     {
@@ -52,8 +52,8 @@
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "379.0",
-      "sell": "348.0"
+      "buy": "378.0",
+      "sell": "347.0"
     },
     {
       "code": "RON",
@@ -95,7 +95,7 @@
       "code": "GEL",
       "name": "Gruzijos laris",
       "buy": "2,93",
-      "sell": "2.70"
+      "sell": "2.71"
     },
     {
       "code": "SCP",
@@ -124,7 +124,7 @@
     {
       "code": "AED",
       "name": "JAE Dirhamas",
-      "buy": "4,41",
+      "buy": "4,42",
       "sell": "4,00"
     },
     {
@@ -143,7 +143,7 @@
       "code": "RUB",
       "name": "Rusijos rublis",
       "buy": "99,00",
-      "sell": "94,00"
+      "sell": "93,00"
     }
   ]
 }
