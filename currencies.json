@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21 09:18",
+  "updated": "2026-10-21 09:29",
   "currencies": [
     {
       "code": "USD",
@@ -113,7 +113,7 @@
       "code": "CNY",
       "name": "Kinijos ženminbi juanis",
       "buy": "8,19",
-      "sell": "7,30"
+      "sell": "7,10"
     },
     {
       "code": "THB",
