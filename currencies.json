@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22 14:36",
+  "updated": "2026-10-23 09:20",
   "currencies": [
     {
       "code": "USD",
@@ -10,8 +10,8 @@
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.863",
-      "sell": "0.829"
+      "buy": "0.862",
+      "sell": "0.827"
     },
     {
       "code": "CHF",
@@ -23,7 +23,7 @@
       "code": "PLN",
       "name": "Lenkijos zlotas",
       "buy": "4.40",
-      "sell": "4.30"
+      "sell": "4.31"
     },
     {
       "code": "NOK",
@@ -59,31 +59,31 @@
       "code": "RON",
       "name": "Rumunijos lėja",
       "buy": "5.61",
-      "sell": "5,02"
+      "sell": "5,03"
     },
     {
       "code": "JPY",
       "name": "Japonijos jena",
       "buy": "179.0",
-      "sell": "164,0"
+      "sell": "165,0"
     },
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.623",
-      "sell": "1.543"
+      "buy": "1.621",
+      "sell": "1.541"
     },
     {
       "code": "AUD",
       "name": "Australijos doleris",
-      "buy": "1.666",
-      "sell": "1,572"
+      "buy": "1.663",
+      "sell": "1,569"
     },
     {
       "code": "TRY",
       "name": "Turkijos lira",
-      "buy": "55,90",
-      "sell": "50,60"
+      "buy": "56,00",
+      "sell": "50,70"
     },
     {
       "code": "UAH",
@@ -94,20 +94,20 @@
     {
       "code": "GEL",
       "name": "Gruzijos laris",
-      "buy": "2,94",
+      "buy": "2,93",
       "sell": "2.71"
     },
     {
       "code": "SCP",
       "name": "Škotijos svaras sterlingų",
-      "buy": "0,893",
-      "sell": "0,837"
+      "buy": "0,892",
+      "sell": "0,836"
     },
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,11",
-      "sell": "3,50"
+      "buy": "4,12",
+      "sell": "3,53"
     },
     {
       "code": "CNY",
@@ -124,13 +124,13 @@
     {
       "code": "AED",
       "name": "JAE Dirhamas",
-      "buy": "4,40",
+      "buy": "4,41",
       "sell": "3,99"
     },
     {
       "code": "BYN",
       "name": "Baltarusijos rublis",
-      "buy": "3,36",
+      "buy": "3,35",
       "sell": "3,20"
     },
     {
