@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-23 09:20",
+  "updated": "2026-10-23 13:37",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.148",
-      "sell": "1.094"
+      "buy": "1.147",
+      "sell": "1.092"
     },
     {
       "code": "GBP",
@@ -22,8 +22,8 @@
     {
       "code": "PLN",
       "name": "Lenkijos zlotas",
-      "buy": "4.40",
-      "sell": "4.31"
+      "buy": "4.42",
+      "sell": "4.32"
     },
     {
       "code": "NOK",
@@ -142,8 +142,8 @@
     {
       "code": "RUB",
       "name": "Rusijos rublis",
-      "buy": "97,00",
-      "sell": "91,00"
+      "buy": "96,00",
+      "sell": "90,00"
     }
   ]
 }
