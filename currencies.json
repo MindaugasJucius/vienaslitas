@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-14 09:12",
+  "updated": "2026-11-16 09:19",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.130",
-      "sell": "1.076"
+      "buy": "1.129",
+      "sell": "1.075"
     },
     {
       "code": "GBP",
@@ -16,13 +16,13 @@
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
-      "buy": "0.951",
-      "sell": "0.908"
+      "buy": "0.950",
+      "sell": "0.907"
     },
     {
       "code": "PLN",
       "name": "Lenkijos zlotas",
-      "buy": "4.44",
+      "buy": "4.45",
       "sell": "4.35"
     },
     {
@@ -47,13 +47,13 @@
       "code": "CZK",
       "name": "Čekijos krona",
       "buy": "25,00",
-      "sell": "23.50"
+      "sell": "23.60"
     },
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
       "buy": "379.0",
-      "sell": "348.0"
+      "sell": "349.0"
     },
     {
       "code": "RON",
@@ -64,8 +64,8 @@
     {
       "code": "JPY",
       "name": "Japonijos jena",
-      "buy": "180.0",
-      "sell": "165,0"
+      "buy": "179.0",
+      "sell": "164,0"
     },
     {
       "code": "CAD",
@@ -76,8 +76,8 @@
     {
       "code": "AUD",
       "name": "Australijos doleris",
-      "buy": "1.692",
-      "sell": "1,596"
+      "buy": "1.695",
+      "sell": "1,60"
     },
     {
       "code": "TRY",
@@ -100,7 +100,7 @@
     {
       "code": "SCP",
       "name": "Škotijos svaras sterlingų",
-      "buy": "0,889",
+      "buy": "0,888",
       "sell": "0,833"
     },
     {
@@ -125,7 +125,7 @@
       "code": "AED",
       "name": "JAE Dirhamas",
       "buy": "4,33",
-      "sell": "3,93"
+      "sell": "3,92"
     },
     {
       "code": "BYN",
