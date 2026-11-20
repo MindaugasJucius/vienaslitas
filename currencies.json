@@ -1,29 +1,29 @@
 {
-  "updated": "2026-11-19 09:31",
+  "updated": "2026-11-20 09:41",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.124",
-      "sell": "1.071"
+      "buy": "1.125",
+      "sell": "1.072"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.859",
-      "sell": "0.825"
+      "buy": "0.862",
+      "sell": "0.828"
     },
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
       "buy": "0.950",
-      "sell": "0.909"
+      "sell": "0.908"
     },
     {
       "code": "PLN",
       "name": "Lenkijos zlotas",
-      "buy": "4.45",
-      "sell": "4.35"
+      "buy": "4.48",
+      "sell": "4.38"
     },
     {
       "code": "NOK",
@@ -52,8 +52,8 @@
     {
       "code": "HUF",
       "name": "Vengrijos forintas",
-      "buy": "383.0",
-      "sell": "352.0"
+      "buy": "389.0",
+      "sell": "357.0"
     },
     {
       "code": "RON",
@@ -65,25 +65,25 @@
       "code": "JPY",
       "name": "Japonijos jena",
       "buy": "178.0",
-      "sell": "164,0"
+      "sell": "163,0"
     },
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.622",
+      "buy": "1.623",
       "sell": "1.543"
     },
     {
       "code": "AUD",
       "name": "Australijos doleris",
-      "buy": "1.703",
-      "sell": "1,606"
+      "buy": "1.714",
+      "sell": "1,616"
     },
     {
       "code": "TRY",
       "name": "Turkijos lira",
-      "buy": "55,50",
-      "sell": "50,30"
+      "buy": "55,70",
+      "sell": "50,40"
     },
     {
       "code": "UAH",
@@ -94,20 +94,20 @@
     {
       "code": "GEL",
       "name": "Gruzijos laris",
-      "buy": "2,86",
-      "sell": "2.64"
+      "buy": "2,87",
+      "sell": "2.65"
     },
     {
       "code": "SCP",
       "name": "Škotijos svaras sterlingų",
-      "buy": "0,889",
-      "sell": "0,834"
+      "buy": "0,892",
+      "sell": "0,837"
     },
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,22",
-      "sell": "3,61"
+      "buy": "4,31",
+      "sell": "3,68"
     },
     {
       "code": "CNY",
