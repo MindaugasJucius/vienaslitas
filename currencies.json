@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-20 13:25",
+  "updated": "2026-11-21 09:28",
   "currencies": [
     {
       "code": "USD",
       "name": "JAV doleris",
-      "buy": "1.123",
-      "sell": "1.070"
+      "buy": "1.124",
+      "sell": "1.071"
     },
     {
       "code": "GBP",
       "name": "D. Britanijos svaras",
-      "buy": "0.860",
-      "sell": "0.826"
+      "buy": "0.863",
+      "sell": "0.828"
     },
     {
       "code": "CHF",
       "name": "Šveicarijos frankas",
-      "buy": "0.949",
-      "sell": "0.906"
+      "buy": "0.946",
+      "sell": "0.904"
     },
     {
       "code": "PLN",
@@ -64,20 +64,20 @@
     {
       "code": "JPY",
       "name": "Japonijos jena",
-      "buy": "178.0",
+      "buy": "177.0",
       "sell": "163,0"
     },
     {
       "code": "CAD",
       "name": "Kanados doleris",
-      "buy": "1.620",
-      "sell": "1.540"
+      "buy": "1.624",
+      "sell": "1.543"
     },
     {
       "code": "AUD",
       "name": "Australijos doleris",
-      "buy": "1.711",
-      "sell": "1,614"
+      "buy": "1.721",
+      "sell": "1,623"
     },
     {
       "code": "TRY",
@@ -94,8 +94,8 @@
     {
       "code": "GEL",
       "name": "Gruzijos laris",
-      "buy": "2,87",
-      "sell": "2.65"
+      "buy": "2,86",
+      "sell": "2.64"
     },
     {
       "code": "SCP",
@@ -106,8 +106,8 @@
     {
       "code": "ILS",
       "name": "Izraelio naujasis šekelis",
-      "buy": "4,31",
-      "sell": "3,68"
+      "buy": "4,34",
+      "sell": "3,70"
     },
     {
       "code": "CNY",
@@ -118,8 +118,8 @@
     {
       "code": "THB",
       "name": "Tailando batas",
-      "buy": "40,80",
-      "sell": "33,80"
+      "buy": "41,00",
+      "sell": "33,90"
     },
     {
       "code": "AED",
